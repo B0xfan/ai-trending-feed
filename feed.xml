@@ -5,7 +5,7 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:02:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 15:49:37 +0000</lastBuildDate>
     <item>
       <title>vercel-labs/agent-desktop</title>
       <link>https://github.com/vercel-labs/agent-desktop</link>
@@ -13,7 +13,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Agent Desktop solves a problem that has frustrated agent builders for years: how does an AI agent actually use your computer? Until now the usual answer was screenshots, with the agent guessing where buttons are and clicking, which breaks whenever anything moves or resizes. Agent Desktop takes a different approach and reads the structure the operating system already keeps about every app, the accessibility tree, the same information screen readers use. Every clickable thing gets a short reference code, the agent clicks the code rather than a screen coordinate, and then it takes a fresh snapshot to confirm the click did what it was supposed to do. It works on Mac, Windows, and Linux, is written in Rust, and is open source under the Apache license.</p>
 <p><strong>Stars:</strong> 8329</p>
-<p><strong>Practical use:</strong> Build agents that do real work inside real apps, like filing a form or organizing files, reliably instead of flakily.</p>]]></description>
+<p><strong>Practical use:</strong> Build agents that do real work inside real apps, like filing a form or organizing files, reliably instead of flakily.</p>
+<p><a href="https://github.com/vercel-labs/agent-desktop">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>max-sixty/worktrunk</title>
@@ -22,7 +23,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Worktrunk is a command-line tool for Git worktrees, which are separate copies of the same project sitting in their own folders. That matters because it lets a second agent work on a different feature without touching the first agent&#x27;s work, like giving every cook in a kitchen their own counter instead of making them share one cutting board. Git&#x27;s built-in worktree commands are clunky, so Worktrunk turns them into short, friendly commands: one switch command creates the copy and can start Claude Code right there, and one command merges the work back and cleans up. It also shows a live list of every worktree with its status, generates commit messages, shares build caches so ten copies do not each rebuild everything, and gives each copy its own port number so test servers do not collide.</p>
 <p><strong>Stars:</strong> 9869</p>
-<p><strong>Practical use:</strong> Run two or more coding agents in parallel on the same project without them tripping over each other.</p>]]></description>
+<p><strong>Practical use:</strong> Run two or more coding agents in parallel on the same project without them tripping over each other.</p>
+<p><a href="https://github.com/max-sixty/worktrunk">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>karpathy/nanochat</title>
@@ -31,7 +33,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Nanochat, from Andrej Karpathy, is the simplest possible toolkit for training your own language model from scratch and chatting with it when you are done. There is basically one dial to turn, called depth, which is just how many layers the model has; everything else, like width, attention heads, and learning rate, gets worked out automatically for that size. The headline example is a small model with about the capability of the original GPT-2 from 2019, which cost around forty-three thousand dollars to train back then and now takes roughly two hours on a rented machine with eight top-end graphics cards for about forty-eight dollars. It covers the whole pipeline, from turning text into tokens through training, fine-tuning, testing, and chatting, in plain Python with PyTorch.</p>
 <p><strong>Stars:</strong> 59678</p>
-<p><strong>Practical use:</strong> Learn what is actually inside a chatbot by training a tiny model on a laptop, or scale up to a full run and end up with something you can talk to.</p>]]></description>
+<p><strong>Practical use:</strong> Learn what is actually inside a chatbot by training a tiny model on a laptop, or scale up to a full run and end up with something you can talk to.</p>
+<p><a href="https://github.com/karpathy/nanochat">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>p-e-w/heretic</title>
@@ -40,7 +43,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Heretic lets you modify a language model you already run on your own computer, without retraining it at all. When you download an open model it comes with behaviors baked in by its maker: it might refuse certain questions, pad answers with generic filler, or agree with you too eagerly. Heretic uses mathematical techniques to adjust the model&#x27;s inner settings so those behaviors change. You give it example prompts, it scores how the model responds, and an optimizer searches for the adjustment that gets the behavior you want. The default setup reduces refusals, with ready-made setups for cutting filler, toning down humor, or reducing that overly agreeable tone. On a decent gaming computer, processing a mid-sized model takes about thirty to forty minutes, and afterward you can save it, share it, chat with it, or run standard benchmarks.</p>
 <p><strong>Stars:</strong> 37842</p>
-<p><strong>Practical use:</strong> Shape an open model you own to behave the way you want, on hardware you own, instead of only renting behavior from a big company.</p>]]></description>
+<p><strong>Practical use:</strong> Shape an open model you own to behave the way you want, on hardware you own, instead of only renting behavior from a big company.</p>
+<p><a href="https://github.com/p-e-w/heretic">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>michael-denyer/pstack-claude</title>
@@ -49,7 +53,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Pstack-claude ports the pstack workflow system for coding agents to Claude Code, Codex, GitHub Copilot, Pi, OpenCode, and others. If you use a coding agent you may have noticed it sometimes rushes ahead, writes messy code, or skips checking its work. Pstack is a set of playbooks, structured workflows, that the agent follows instead: for a bug it first reproduces the failure, then investigates, then delegates the fix, then reruns the failing test to prove the fix works; for a new feature it plans first and brings in an architect step before writing code; and for the trickiest timing bugs it can even verify code with formal mathematical checking tools. It is open source under the MIT license.</p>
 <p><strong>Stars:</strong> 3769</p>
-<p><strong>Practical use:</strong> Give a coding agent a disciplined checklist so it plans, verifies, and proves its fixes instead of rushing ahead.</p>]]></description>
+<p><strong>Practical use:</strong> Give a coding agent a disciplined checklist so it plans, verifies, and proves its fixes instead of rushing ahead.</p>
+<p><a href="https://github.com/michael-denyer/pstack-claude">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>cjpais/Handy</title>
@@ -58,7 +63,8 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Handy is free, open source speech-to-text that works completely offline. Instead of sending your voice to a cloud service for transcription, it does the whole job on your own machine, which keeps your spoken words private and means it keeps working with no internet connection at all.</p>
 <p><strong>Stars:</strong> 37043</p>
-<p><strong>Practical use:</strong> Dictate into any app on your computer without sending audio to the cloud.</p>]]></description>
+<p><strong>Practical use:</strong> Dictate into any app on your computer without sending audio to the cloud.</p>
+<p><a href="https://github.com/cjpais/Handy">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>kornia/kornia</title>
@@ -67,7 +73,8 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Kornia is a Python library for computer vision and spatial AI built on PyTorch, with over 1,200 image and geometry tools. It gives researchers and developers a single, well-tested toolkit for the low-level vision operations that sit underneath most image and 3D AI work, rather than everyone reimplementing the same routines.</p>
 <p><strong>Stars:</strong> 12021</p>
-<p><strong>Practical use:</strong> Add image processing, geometry, and spatial AI operations to a Python project built on PyTorch.</p>]]></description>
+<p><strong>Practical use:</strong> Add image processing, geometry, and spatial AI operations to a Python project built on PyTorch.</p>
+<p><a href="https://github.com/kornia/kornia">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>beenuar/AiSOC</title>
@@ -76,7 +83,8 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>AiSOC is an open source, self-hostable AI security operations center. It triages security alerts with AI agents and keeps a replayable record of every decision, so a team can see exactly why an alert was handled the way it was. Because you host it yourself, your alert data stays on your own infrastructure instead of going to a third-party service.</p>
 <p><strong>Stars:</strong> 6571</p>
-<p><strong>Practical use:</strong> Run your own AI-assisted security operations center for triaging alerts, with a full audit trail of each decision.</p>]]></description>
+<p><strong>Practical use:</strong> Run your own AI-assisted security operations center for triaging alerts, with a full audit trail of each decision.</p>
+<p><a href="https://github.com/beenuar/AiSOC">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>anomalyco/hex</title>
@@ -85,7 +93,8 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>Hex is local-first voice dictation for Mac, built in Rust, with no cloud involved. Everything you say is transcribed on your own machine, which makes it fast and private, and it is designed to feel like a native Mac utility rather than a web service wrapped in an app.</p>
 <p><strong>Stars:</strong> 3897</p>
-<p><strong>Practical use:</strong> Dictate on a Mac with everything staying on the machine, no audio sent anywhere.</p>]]></description>
+<p><strong>Practical use:</strong> Dictate on a Mac with everything staying on the machine, no audio sent anywhere.</p>
+<p><a href="https://github.com/anomalyco/hex">View on GitHub</a></p>]]></description>
     </item>
     <item>
       <title>FlashML-org/FreeToken</title>
@@ -94,7 +103,8 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[<p>FreeToken runs huge open AI models locally on a regular gaming PC at interactive speed, instead of needing a data center. It removes the usual barrier to running big models yourself, which is renting expensive server GPUs, and makes local inference practical on hardware many people already own.</p>
 <p><strong>Stars:</strong> 15827</p>
-<p><strong>Practical use:</strong> Run large open models at home on a gaming PC and chat with them at interactive speed, with no API bills.</p>]]></description>
+<p><strong>Practical use:</strong> Run large open models at home on a gaming PC and chat with them at interactive speed, with no API bills.</p>
+<p><a href="https://github.com/FlashML-org/FreeToken">View on GitHub</a></p>]]></description>
     </item>
   </channel>
 </rss>

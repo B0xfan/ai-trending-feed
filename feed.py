@@ -43,11 +43,13 @@ def main():
     for it in items:
         body = (
             "<p>%s</p>\n<p><strong>Stars:</strong> %s</p>\n"
-            "<p><strong>Practical use:</strong> %s</p>"
+            "<p><strong>Practical use:</strong> %s</p>\n"
+            '<p><a href="%s">View on GitHub</a></p>'
             % (
                 html.escape(it["description"]),
                 html.escape(str(it["stars"])),
                 html.escape(it["usage"]),
+                html.escape(it["link"], quote=True),
             )
         )
         out.append("    <item>")
