@@ -5,7 +5,27 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:49:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:59:02 +0000</lastBuildDate>
+    <item>
+      <title>spotify/portal-ai-plugins</title>
+      <link>https://github.com/spotify/portal-ai-plugins</link>
+      <guid isPermaLink="true">https://github.com/spotify/portal-ai-plugins</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Spotify&#x27;s official plugins that plug its internal developer platform, Portal, straight into your coding assistant. Portal is the control room for all of Spotify&#x27;s software: every service, who owns it, whether it is healthy, and whether an incident is open. Once installed in Claude Code, Codex, Cursor, or pi, you can ask your assistant in plain language for a service briefing, search the software catalog, or run diagnostics, instead of clicking through dashboards. It can even trigger Portal actions, but with safety rails: a dry-run mode and a confirmation step so you see what it is about to do first. A bonus plugin called shunt routes boring heavy lifting, like reading lots of files or generating boilerplate, to cheaper worker models so the expensive smart model stays on the hard thinking. It is open source under the Apache license.</p>
+<p><strong>Stars:</strong> 2924</p>
+<p><strong>Practical use:</strong> If you run a platform team or lots of services, study the pattern or adapt it: give your agent read access to your service catalog and safe, confirmed ways to take action.</p>
+<p><a href="https://github.com/spotify/portal-ai-plugins">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Usagi-org/ai-goofish-monitor</title>
+      <link>https://github.com/Usagi-org/ai-goofish-monitor</link>
+      <guid isPermaLink="true">https://github.com/Usagi-org/ai-goofish-monitor</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>An AI-powered watchdog for Xianyu, known internationally as Goofish, China&#x27;s huge secondhand marketplace. You describe what you want in plain language, with a price range, shipping, and region filters if you like, and it watches listings around the clock. When a new listing appears it grabs the details and photos, and a vision model judges whether it actually matches what you asked for, instead of just matching keywords and pinging you about junk. Real matches reach you by Telegram, Bark, enterprise chat tools, webhooks, and more, and a web dashboard lets you manage tasks, accounts, and results. It runs in Docker with a small local database, and paces itself through rotating accounts and proxies so the marketplace does not block it.</p>
+<p><strong>Stars:</strong> 16140</p>
+<p><strong>Practical use:</strong> Set it watching for a specific used item at a specific price and get pinged only when a genuine match appears, instead of refreshing listings all day.</p>
+<p><a href="https://github.com/Usagi-org/ai-goofish-monitor">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>vercel-labs/agent-desktop</title>
       <link>https://github.com/vercel-labs/agent-desktop</link>
