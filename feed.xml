@@ -5,7 +5,67 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:59:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:59:11 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA/auto-ontology</title>
+      <link>https://github.com/NVIDIA/auto-ontology</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/auto-ontology</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Auto Ontology, from NVIDIA, builds a map of meaning over a company&#x27;s databases before an AI agent ever answers a question. Instead of letting the agent guess which tables to join and what a term like revenue means in that system, it turns the database structure into clear business definitions with the relationships worked out in advance, and a human can review and approve that map in a web interface. When you ask a question, the agent uses the approved definitions, shows you the database query it ran and the steps it took, and if the data simply cannot answer the question, it says so instead of inventing a confident answer. It is open source under the Apache license.</p>
+<p><strong>Stars:</strong> 3764</p>
+<p><strong>Practical use:</strong> Build an assistant that answers questions about real business data and can show its work, instead of guessing at table joins and definitions.</p>
+<p><a href="https://github.com/NVIDIA/auto-ontology">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>github/spec-kit</title>
+      <link>https://github.com/github/spec-kit</link>
+      <guid isPermaLink="true">https://github.com/github/spec-kit</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Spec Kit, from GitHub, is a toolkit for spec-driven development with AI coding agents: write down what you are building and why before any code is written, then turn that specification into a plan, then into tasks, and only then into working code. You set the project&#x27;s principles once, like code quality and testing standards, and for each feature you write the spec, plan it, break it into tasks, build it, and check the result against the spec. It also covers fixing bugs, where you assess the cause first and verify the fix afterward, and assessing ideas, ending with a clear go, clarify, or stop decision. It works with the major coding assistants and is MIT licensed.</p>
+<p><strong>Stars:</strong> 146948</p>
+<p><strong>Practical use:</strong> Give a coding agent a written spec to work from so it stops drifting and you have a document to point back to when it goes off track.</p>
+<p><a href="https://github.com/github/spec-kit">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>The-PR-Agent/pr-agent</title>
+      <link>https://github.com/The-PR-Agent/pr-agent</link>
+      <guid isPermaLink="true">https://github.com/The-PR-Agent/pr-agent</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>PR Agent is the original open source AI code reviewer, now community owned after its creators donated it to the open source community. When a developer submits a pull request, a proposed change to the shared codebase, it describes what changed in plain language, reviews the code for problems, and suggests concrete improvements, and you can ask it questions about a pull request and get answers drawn from the code itself. It works with GitHub, GitLab, Bitbucket, and Azure DevOps, and with models from OpenAI, Anthropic, Google, DeepSeek, and others, so a team can use whatever model it already pays for. Each review is designed to run in roughly one model call in about thirty seconds.</p>
+<p><strong>Stars:</strong> 14517</p>
+<p><strong>Practical use:</strong> Put a quick second pair of eyes on every pull request before a human reviews it, catching bugs and sloppy work early.</p>
+<p><a href="https://github.com/The-PR-Agent/pr-agent">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>garrytan/gstack</title>
+      <link>https://github.com/garrytan/gstack</link>
+      <guid isPermaLink="true">https://github.com/garrytan/gstack</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Gstack is Y Combinator president Garry Tan&#x27;s own Claude Code setup, shared publicly: a set of commands that turns a coding assistant into a virtual engineering team. Instead of one blank prompt box, you get roles that do the job each is good at: a chief executive role that pushes back on your product idea, an engineering manager that locks down the architecture, a designer that catches the generic AI look before it ships, a reviewer that finds bugs automated tests miss, a quality lead that opens a real browser and reproduces bugs, and a release engineer that ships the final change. It installs in about thirty seconds, now works with Codex, Cursor, and OpenCode too, and because it is written in plain Markdown commands you can keep the roles you like and drop the rest. It is MIT licensed.</p>
+<p><strong>Stars:</strong> 139047</p>
+<p><strong>Practical use:</strong> Steal a disciplined, ready-made AI workflow for building and shipping software, or borrow individual roles like the reviewer and quality lead for your own setup.</p>
+<p><a href="https://github.com/garrytan/gstack">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>scenario-labs/skills</title>
+      <link>https://github.com/scenario-labs/skills</link>
+      <guid isPermaLink="true">https://github.com/scenario-labs/skills</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Scenario Skills is a collection of agent skills that teach coding agents how to produce production-ready images, video, audio, and 3D assets through Scenario&#x27;s media service. The skills do not just say make an image: they pick the right model for the job, tell you the price before you spend money, and keep characters and brands consistent across many generations, so the same hero character looks like the same person across fifty game scenes. A second half covers expert teams that drive professional creative software installed on your own machine, like Blender, Maya, ZBrush, Unreal Engine, and Unity, following workflows distilled from expert tutorials and official documentation instead of guessing how a complex tool works. It works with Claude Code, Cursor, Codex, Copilot, and dozens of other assistants, and is MIT licensed.</p>
+<p><strong>Stars:</strong> 2103</p>
+<p><strong>Practical use:</strong> Let a coding agent generate production media with consistent characters and honest prices, or drive professional creative tools on your own machine.</p>
+<p><a href="https://github.com/scenario-labs/skills">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>calesthio/OpenMontage</title>
+      <link>https://github.com/calesthio/OpenMontage</link>
+      <guid isPermaLink="true">https://github.com/calesthio/OpenMontage</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>OpenMontage calls itself the first open source agentic video production system: it turns your AI coding assistant into a full video production studio. You describe what you want in plain language, and the agent handles research, scripting, asset generation, editing, and final composition, with twelve production pipelines, more than one hundred tools, and more than seven hundred skill and production knowledge files behind it. Examples include a sixty-second animated story made for about a dollar and thirty-three cents, a documentary built from real footage with narration and animated maps, and a fly-through 3D world built from one prompt. It estimates the cost before generating anything, keeps an audit trail of every decision, shows a live storyboard as it runs, and pauses for your approval before rendering. It is licensed under the AGPL and works with Claude Code, Cursor, Copilot, and Codex.</p>
+<p><strong>Stars:</strong> 76244</p>
+<p><strong>Practical use:</strong> Make a real video from a single idea, with cost estimates up front and an approval step before the final render.</p>
+<p><a href="https://github.com/calesthio/OpenMontage">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>spotify/portal-ai-plugins</title>
       <link>https://github.com/spotify/portal-ai-plugins</link>
