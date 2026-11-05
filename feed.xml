@@ -5,7 +5,47 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:59:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:58:28 +0000</lastBuildDate>
+    <item>
+      <title>google/skills</title>
+      <link>https://github.com/google/skills</link>
+      <guid isPermaLink="true">https://github.com/google/skills</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Google&#x27;s official Agent Skills for Google Cloud and Google products: reusable playbooks that teach a coding agent how to build, deploy, and troubleshoot on Google&#x27;s platform. Instead of the agent guessing how to use a Google service or re-reading documentation every time, a skill gives it a step-by-step workflow, so a request like setting up a Cloud Run deployment or debugging a BigQuery query follows Google&#x27;s own recommended path.</p>
+<p><strong>Stars:</strong> 22121</p>
+<p><strong>Practical use:</strong> Install the skills for the Google products you use so your coding agent follows Google&#x27;s official workflow instead of guessing.</p>
+<p><a href="https://github.com/google/skills">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <guid isPermaLink="true">https://github.com/vercel-labs/agent-browser</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>A command-line browser built for AI agents. Instead of taking screenshots and guessing where to click, the agent drives the web one shell command at a time: open a page, click a button, fill in a form, read the result. It turns the messy job of using a website into a sequence of simple, repeatable commands that an agent can run, check, and retry, which is exactly how agents work best.</p>
+<p><strong>Stars:</strong> 45635</p>
+<p><strong>Practical use:</strong> Give an AI agent a way to use real websites from the terminal, like filling a form or checking a page, without screenshots or guesswork.</p>
+<p><a href="https://github.com/vercel-labs/agent-browser">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ConardLi/garden-skills</title>
+      <link>https://github.com/ConardLi/garden-skills</link>
+      <guid isPermaLink="true">https://github.com/ConardLi/garden-skills</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>A curated set of agent skills for web design, video, image generation, and knowledge retrieval, built to make AI-made work look polished. The recurring complaint about AI output is that it looks generic, so these skills package the techniques that experienced makers use: better layouts and styling for web pages, stronger prompts and workflows for images and video, and structured ways to pull in knowledge, so the result looks like someone who knew what they were doing made it.</p>
+<p><strong>Stars:</strong> 13958</p>
+<p><strong>Practical use:</strong> Add these skills to your coding agent when you want its websites, images, and videos to look finished instead of generic.</p>
+<p><a href="https://github.com/ConardLi/garden-skills">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>microsoft/VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <guid isPermaLink="true">https://github.com/microsoft/VibeVoice</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Microsoft&#x27;s open-source voice AI family, with two sides: speech-to-text that transcribes hour-long audio in a single pass instead of chopping it into short clips, and text-to-speech that can speak with up to four distinct voices at once, so a conversation or a story with multiple characters sounds like different people. It is a research-grade open model family, free to run and build on.</p>
+<p><strong>Stars:</strong> 55422</p>
+<p><strong>Practical use:</strong> Transcribe long recordings in one pass, or generate multi-voice audio for a podcast, story, or conversation, with open models you can run yourself.</p>
+<p><a href="https://github.com/microsoft/VibeVoice">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>NVIDIA/auto-ontology</title>
       <link>https://github.com/NVIDIA/auto-ontology</link>

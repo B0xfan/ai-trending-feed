@@ -142,5 +142,37 @@
     "stars": 76244,
     "description": "OpenMontage calls itself the first open source agentic video production system: it turns your AI coding assistant into a full video production studio. You describe what you want in plain language, and the agent handles research, scripting, asset generation, editing, and final composition, with twelve production pipelines, more than one hundred tools, and more than seven hundred skill and production knowledge files behind it. Examples include a sixty-second animated story made for about a dollar and thirty-three cents, a documentary built from real footage with narration and animated maps, and a fly-through 3D world built from one prompt. It estimates the cost before generating anything, keeps an audit trail of every decision, shows a live storyboard as it runs, and pauses for your approval before rendering. It is licensed under the AGPL and works with Claude Code, Cursor, Copilot, and Codex.",
     "usage": "Make a real video from a single idea, with cost estimates up front and an approval step before the final render."
+  },
+  {
+    "repo": "google/skills",
+    "link": "https://github.com/google/skills",
+    "date": "2026-11-05",
+    "stars": 22121,
+    "description": "Google's official Agent Skills for Google Cloud and Google products: reusable playbooks that teach a coding agent how to build, deploy, and troubleshoot on Google's platform. Instead of the agent guessing how to use a Google service or re-reading documentation every time, a skill gives it a step-by-step workflow, so a request like setting up a Cloud Run deployment or debugging a BigQuery query follows Google's own recommended path.",
+    "usage": "Install the skills for the Google products you use so your coding agent follows Google's official workflow instead of guessing."
+  },
+  {
+    "repo": "vercel-labs/agent-browser",
+    "link": "https://github.com/vercel-labs/agent-browser",
+    "date": "2026-11-05",
+    "stars": 45635,
+    "description": "A command-line browser built for AI agents. Instead of taking screenshots and guessing where to click, the agent drives the web one shell command at a time: open a page, click a button, fill in a form, read the result. It turns the messy job of using a website into a sequence of simple, repeatable commands that an agent can run, check, and retry, which is exactly how agents work best.",
+    "usage": "Give an AI agent a way to use real websites from the terminal, like filling a form or checking a page, without screenshots or guesswork."
+  },
+  {
+    "repo": "ConardLi/garden-skills",
+    "link": "https://github.com/ConardLi/garden-skills",
+    "date": "2026-11-05",
+    "stars": 13958,
+    "description": "A curated set of agent skills for web design, video, image generation, and knowledge retrieval, built to make AI-made work look polished. The recurring complaint about AI output is that it looks generic, so these skills package the techniques that experienced makers use: better layouts and styling for web pages, stronger prompts and workflows for images and video, and structured ways to pull in knowledge, so the result looks like someone who knew what they were doing made it.",
+    "usage": "Add these skills to your coding agent when you want its websites, images, and videos to look finished instead of generic."
+  },
+  {
+    "repo": "microsoft/VibeVoice",
+    "link": "https://github.com/microsoft/VibeVoice",
+    "date": "2026-11-05",
+    "stars": 55422,
+    "description": "Microsoft's open-source voice AI family, with two sides: speech-to-text that transcribes hour-long audio in a single pass instead of chopping it into short clips, and text-to-speech that can speak with up to four distinct voices at once, so a conversation or a story with multiple characters sounds like different people. It is a research-grade open model family, free to run and build on.",
+    "usage": "Transcribe long recordings in one pass, or generate multi-voice audio for a podcast, story, or conversation, with open models you can run yourself."
   }
 ]
