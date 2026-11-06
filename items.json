@@ -174,5 +174,61 @@
     "stars": 55422,
     "description": "Microsoft's open-source voice AI family, with two sides: speech-to-text that transcribes hour-long audio in a single pass instead of chopping it into short clips, and text-to-speech that can speak with up to four distinct voices at once, so a conversation or a story with multiple characters sounds like different people. It is a research-grade open model family, free to run and build on.",
     "usage": "Transcribe long recordings in one pass, or generate multi-voice audio for a podcast, story, or conversation, with open models you can run yourself."
+  },
+  {
+    "repo": "zed-industries/zed",
+    "link": "https://github.com/zed-industries/zed",
+    "date": "2026-11-06",
+    "stars": 93031,
+    "description": "Zed is a code editor built for speed, from the team behind Atom and Tree-sitter, written in Rust so it opens fast, types fast, and lets several people edit the same file together like a shared document. It has quietly become an AI coding editor too, with a built-in agent panel where an assistant can write code, fix bugs, or explain your project, and it now supports the agent-skills format, the small instruction packs that teach an assistant how to do a specific job well. With about ninety-three thousand stars it is one of the biggest names ever covered on a daily window.",
+    "usage": "Try it as your code editor if you want an instant-feeling editor with an AI assistant built in."
+  },
+  {
+    "repo": "Orkas-AI/Orkas",
+    "link": "https://github.com/Orkas-AI/Orkas",
+    "date": "2026-11-06",
+    "stars": 9057,
+    "description": "Orkas is a desktop app that gives you a whole team of AI agents for the work that never ends: research, writing, videos, spreadsheets, and keeping an online store tidy. At the center is a Commander: you describe what you want in plain words, and it breaks the goal into steps and hands each one to the right specialist. There are sixteen specialists built in, including ones for content, slide decks, video editing, research with checkable sources, office files, and five that do nothing but e-commerce work like product research and reading customer reviews. The Commander can also bring in coding assistants you already use, like Claude Code and Codex, so one conversation can fix a bug, review the change, and draft the release note. Everything stays on your own computer by default, your files and conversations do not go to somebody else's server unless you choose that. It is free for Mac and Windows, open source under the MIT license.",
+    "usage": "Give a small business or side project a desktop team of agents that can research, write, make slides, edit video, and handle office files, all without leaving your computer."
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "link": "https://github.com/THU-MAIC/OpenMAIC",
+    "date": "2026-11-06",
+    "stars": 42783,
+    "description": "OpenMAIC, from the MAIC lab at Tsinghua University, stands for Open Multi-Agent Interactive Classroom, and it turns any topic or document into a full interactive lesson, not a wall of text but a classroom. There is an AI teacher who explains the material, and AI classmates who ask questions and discuss it with you. The teacher can draw on a whiteboard, speak the lesson out loud, and quiz you along the way, and you can export the whole thing as a slide deck or as a single web page that plays offline. The newest version adds a project-based mode, where instead of just reading about something, you build a real project with an AI tutor guiding you through the requirements, the design, and the code. It is open source under the MIT license, and the team shipped a new release just yesterday.",
+    "usage": "Turn a topic or a document into an interactive lesson with an AI teacher and classmates, then export it as slides or a web page."
+  },
+  {
+    "repo": "deepseek-ai/dsh-superagent-prototype",
+    "link": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "date": "2026-11-06",
+    "stars": 20030,
+    "description": "DeepSeek's research prototype for a coding agent that does not wait to be asked. You connect it to a GitHub repo and it listens: when somebody on your team asks for work, in GitHub or in a chat app, the agent opens a work item, goes off into its own workspace, does the job, and comes back with a pull request, the standard way developers propose a change to a project, then answers in the original conversation. Its design principle is written right in the docs: take as little human attention as possible, and give as much value as possible. The agent only speaks when somebody has to act, and it only acts when asked, or when a rule the team wrote allows it. It is a prototype, not a finished product, and DeepSeek says so at the top of the page, but it gathered about twenty thousand stars after launching on October thirty-first. It is open source under the MIT license.",
+    "usage": "Connect it to a GitHub repo and let it pick up tasks from your team and return with a pull request, remembering it is research code, not a finished product."
+  },
+  {
+    "repo": "wangzan101/Mika",
+    "link": "https://github.com/wangzan101/Mika",
+    "date": "2026-11-06",
+    "stars": 7310,
+    "description": "Mika is an AI agent that lives on your Android phone and actually uses your apps for you. Say you want to send a message to a friend, find the cheapest nonstop flight, order takeout, or read through a long group chat and get a summary: you say it in one sentence, and Mika opens the app, taps the buttons, types the words, and scrolls through the screens, all on a hidden background screen, so you can keep using your phone normally while it works. It asks before it spends money, and it hands logins and payment screens back to you. It works with any app because it looks at the screen the way a person does, instead of needing a special connection to each app, and it remembers your preferences and turns finished tasks into skills, so the next time is faster. There is no Mika server in the middle: your data goes only to the AI provider you choose, and your keys and memories stay encrypted on the phone. It is open source under the Apache license, created on October twenty-ninth, so it is barely a week old. It is Android only, and works best on newer phones.",
+    "usage": "On Android, tell it in one sentence to send a message, find a flight, or order takeout, and it taps the buttons for you on a background screen while you keep using your phone."
+  },
+  {
+    "repo": "volcengine/OpenViking",
+    "link": "https://github.com/volcengine/OpenViking",
+    "date": "2026-11-06",
+    "stars": 41683,
+    "description": "OpenViking, from Volcengine, part of ByteDance, is a context database for AI agents, one organized place where an agent keeps everything it knows: its memory, its knowledge, and its skills. It tackles a problem that comes up again and again: AI agents forget things, every session starts fresh and the agent has to relearn who you are and what your project is about. The clever part is how it organizes that knowledge. Most agent memory is a black box, text goes in and nobody can see what actually got stored. OpenViking stores everything as a virtual file system, so knowledge and memories and skills are just files and folders you can browse, read, and edit: project docs in one folder, preferences in another, learned skills in a third. Each folder carries a short summary, so the agent can scan the summary first and decide what is worth reading in full. In their own tests, giving an agent this kind of memory lifted its accuracy on long conversations from the mid twenties and fifties up into the low eighties. It plugs into Claude Code, Codex, Cursor, and several others.",
+    "usage": "Give your coding agent a memory that files everything as readable folders, so it stops starting every session from scratch."
+  },
+  {
+    "repo": "omnigent-ai/omnigent",
+    "link": "https://github.com/omnigent-ai/omnigent",
+    "date": "2026-11-06",
+    "stars": 11259,
+    "description": "Omnigent is a meta-harness, a control layer that runs Claude Code, Codex, Cursor, Pi, and custom agents under one roof. Right now each of those tools is its own world, with its own sessions and its own rules; Omnigent sits above them all. You can run several agents together in the same session, ask one to review another's work, or split a task across agents that are each good at different things. Your sessions follow you from your terminal to your browser to your phone, and you can share a session with a teammate so they can watch the agent work live or take the wheel themselves. There are guardrails too: you can set policies that make the agent pause for your approval before risky actions, cap how much it can spend, or limit which tools it can reach. It is open source under the Apache license, and still labeled alpha, so expect rough edges.",
+    "usage": "Run Claude Code, Codex, Cursor, and other agents under one control layer with shared sessions, spending caps, and approval rules, accepting that it is still alpha software."
   }
 ]
