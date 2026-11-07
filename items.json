@@ -1,234 +1,242 @@
 [
-  {
-    "date": "2026-11-02",
-    "description": "Agent Desktop solves a problem that has frustrated agent builders for years: how does an AI agent actually use your computer? Until now the usual answer was screenshots, with the agent guessing where buttons are and clicking, which breaks whenever anything moves or resizes. Agent Desktop takes a different approach and reads the structure the operating system already keeps about every app, the accessibility tree, the same information screen readers use. Every clickable thing gets a short reference code, the agent clicks the code rather than a screen coordinate, and then it takes a fresh snapshot to confirm the click did what it was supposed to do. It works on Mac, Windows, and Linux, is written in Rust, and is open source under the Apache license.",
-    "link": "https://github.com/vercel-labs/agent-desktop",
-    "repo": "vercel-labs/agent-desktop",
-    "stars": 8329,
-    "usage": "Build agents that do real work inside real apps, like filing a form or organizing files, reliably instead of flakily."
-  },
-  {
-    "date": "2026-11-02",
-    "description": "Worktrunk is a command-line tool for Git worktrees, which are separate copies of the same project sitting in their own folders. That matters because it lets a second agent work on a different feature without touching the first agent's work, like giving every cook in a kitchen their own counter instead of making them share one cutting board. Git's built-in worktree commands are clunky, so Worktrunk turns them into short, friendly commands: one switch command creates the copy and can start Claude Code right there, and one command merges the work back and cleans up. It also shows a live list of every worktree with its status, generates commit messages, shares build caches so ten copies do not each rebuild everything, and gives each copy its own port number so test servers do not collide.",
-    "link": "https://github.com/max-sixty/worktrunk",
-    "repo": "max-sixty/worktrunk",
-    "stars": 9869,
-    "usage": "Run two or more coding agents in parallel on the same project without them tripping over each other."
-  },
-  {
-    "date": "2026-11-02",
-    "description": "Nanochat, from Andrej Karpathy, is the simplest possible toolkit for training your own language model from scratch and chatting with it when you are done. There is basically one dial to turn, called depth, which is just how many layers the model has; everything else, like width, attention heads, and learning rate, gets worked out automatically for that size. The headline example is a small model with about the capability of the original GPT-2 from 2019, which cost around forty-three thousand dollars to train back then and now takes roughly two hours on a rented machine with eight top-end graphics cards for about forty-eight dollars. It covers the whole pipeline, from turning text into tokens through training, fine-tuning, testing, and chatting, in plain Python with PyTorch.",
-    "link": "https://github.com/karpathy/nanochat",
-    "repo": "karpathy/nanochat",
-    "stars": 59678,
-    "usage": "Learn what is actually inside a chatbot by training a tiny model on a laptop, or scale up to a full run and end up with something you can talk to."
-  },
-  {
-    "date": "2026-11-02",
-    "description": "Heretic lets you modify a language model you already run on your own computer, without retraining it at all. When you download an open model it comes with behaviors baked in by its maker: it might refuse certain questions, pad answers with generic filler, or agree with you too eagerly. Heretic uses mathematical techniques to adjust the model's inner settings so those behaviors change. You give it example prompts, it scores how the model responds, and an optimizer searches for the adjustment that gets the behavior you want. The default setup reduces refusals, with ready-made setups for cutting filler, toning down humor, or reducing that overly agreeable tone. On a decent gaming computer, processing a mid-sized model takes about thirty to forty minutes, and afterward you can save it, share it, chat with it, or run standard benchmarks.",
-    "link": "https://github.com/p-e-w/heretic",
-    "repo": "p-e-w/heretic",
-    "stars": 37842,
-    "usage": "Shape an open model you own to behave the way you want, on hardware you own, instead of only renting behavior from a big company."
-  },
-  {
-    "date": "2026-11-02",
-    "description": "Pstack-claude ports the pstack workflow system for coding agents to Claude Code, Codex, GitHub Copilot, Pi, OpenCode, and others. If you use a coding agent you may have noticed it sometimes rushes ahead, writes messy code, or skips checking its work. Pstack is a set of playbooks, structured workflows, that the agent follows instead: for a bug it first reproduces the failure, then investigates, then delegates the fix, then reruns the failing test to prove the fix works; for a new feature it plans first and brings in an architect step before writing code; and for the trickiest timing bugs it can even verify code with formal mathematical checking tools. It is open source under the MIT license.",
-    "link": "https://github.com/michael-denyer/pstack-claude",
-    "repo": "michael-denyer/pstack-claude",
-    "stars": 3769,
-    "usage": "Give a coding agent a disciplined checklist so it plans, verifies, and proves its fixes instead of rushing ahead."
-  },
-  {
-    "date": "2026-11-01",
-    "description": "Handy is free, open source speech-to-text that works completely offline. Instead of sending your voice to a cloud service for transcription, it does the whole job on your own machine, which keeps your spoken words private and means it keeps working with no internet connection at all.",
-    "link": "https://github.com/cjpais/Handy",
-    "repo": "cjpais/Handy",
-    "stars": 37043,
-    "usage": "Dictate into any app on your computer without sending audio to the cloud."
-  },
-  {
-    "date": "2026-11-01",
-    "description": "Kornia is a Python library for computer vision and spatial AI built on PyTorch, with over 1,200 image and geometry tools. It gives researchers and developers a single, well-tested toolkit for the low-level vision operations that sit underneath most image and 3D AI work, rather than everyone reimplementing the same routines.",
-    "link": "https://github.com/kornia/kornia",
-    "repo": "kornia/kornia",
-    "stars": 12021,
-    "usage": "Add image processing, geometry, and spatial AI operations to a Python project built on PyTorch."
-  },
-  {
-    "date": "2026-11-01",
-    "description": "AiSOC is an open source, self-hostable AI security operations center. It triages security alerts with AI agents and keeps a replayable record of every decision, so a team can see exactly why an alert was handled the way it was. Because you host it yourself, your alert data stays on your own infrastructure instead of going to a third-party service.",
-    "link": "https://github.com/beenuar/AiSOC",
-    "repo": "beenuar/AiSOC",
-    "stars": 6571,
-    "usage": "Run your own AI-assisted security operations center for triaging alerts, with a full audit trail of each decision."
-  },
-  {
-    "date": "2026-11-01",
-    "description": "Hex is local-first voice dictation for Mac, built in Rust, with no cloud involved. Everything you say is transcribed on your own machine, which makes it fast and private, and it is designed to feel like a native Mac utility rather than a web service wrapped in an app.",
-    "link": "https://github.com/anomalyco/hex",
-    "repo": "anomalyco/hex",
-    "stars": 3897,
-    "usage": "Dictate on a Mac with everything staying on the machine, no audio sent anywhere."
-  },
-  {
-    "date": "2026-11-01",
-    "description": "FreeToken runs huge open AI models locally on a regular gaming PC at interactive speed, instead of needing a data center. It removes the usual barrier to running big models yourself, which is renting expensive server GPUs, and makes local inference practical on hardware many people already own.",
-    "link": "https://github.com/FlashML-org/FreeToken",
-    "repo": "FlashML-org/FreeToken",
-    "stars": 15827,
-    "usage": "Run large open models at home on a gaming PC and chat with them at interactive speed, with no API bills."
-  },
-  {
-    "repo": "spotify/portal-ai-plugins",
-    "link": "https://github.com/spotify/portal-ai-plugins",
-    "date": "2026-11-03",
-    "stars": 2924,
-    "description": "Spotify's official plugins that plug its internal developer platform, Portal, straight into your coding assistant. Portal is the control room for all of Spotify's software: every service, who owns it, whether it is healthy, and whether an incident is open. Once installed in Claude Code, Codex, Cursor, or pi, you can ask your assistant in plain language for a service briefing, search the software catalog, or run diagnostics, instead of clicking through dashboards. It can even trigger Portal actions, but with safety rails: a dry-run mode and a confirmation step so you see what it is about to do first. A bonus plugin called shunt routes boring heavy lifting, like reading lots of files or generating boilerplate, to cheaper worker models so the expensive smart model stays on the hard thinking. It is open source under the Apache license.",
-    "usage": "If you run a platform team or lots of services, study the pattern or adapt it: give your agent read access to your service catalog and safe, confirmed ways to take action."
-  },
-  {
-    "repo": "Usagi-org/ai-goofish-monitor",
-    "link": "https://github.com/Usagi-org/ai-goofish-monitor",
-    "date": "2026-11-03",
-    "stars": 16140,
-    "description": "An AI-powered watchdog for Xianyu, known internationally as Goofish, China's huge secondhand marketplace. You describe what you want in plain language, with a price range, shipping, and region filters if you like, and it watches listings around the clock. When a new listing appears it grabs the details and photos, and a vision model judges whether it actually matches what you asked for, instead of just matching keywords and pinging you about junk. Real matches reach you by Telegram, Bark, enterprise chat tools, webhooks, and more, and a web dashboard lets you manage tasks, accounts, and results. It runs in Docker with a small local database, and paces itself through rotating accounts and proxies so the marketplace does not block it.",
-    "usage": "Set it watching for a specific used item at a specific price and get pinged only when a genuine match appears, instead of refreshing listings all day."
-  },
-  {
-    "repo": "NVIDIA/auto-ontology",
-    "link": "https://github.com/NVIDIA/auto-ontology",
-    "date": "2026-11-04",
-    "stars": 3764,
-    "description": "Auto Ontology, from NVIDIA, builds a map of meaning over a company's databases before an AI agent ever answers a question. Instead of letting the agent guess which tables to join and what a term like revenue means in that system, it turns the database structure into clear business definitions with the relationships worked out in advance, and a human can review and approve that map in a web interface. When you ask a question, the agent uses the approved definitions, shows you the database query it ran and the steps it took, and if the data simply cannot answer the question, it says so instead of inventing a confident answer. It is open source under the Apache license.",
-    "usage": "Build an assistant that answers questions about real business data and can show its work, instead of guessing at table joins and definitions."
-  },
-  {
-    "repo": "github/spec-kit",
-    "link": "https://github.com/github/spec-kit",
-    "date": "2026-11-04",
-    "stars": 146948,
-    "description": "Spec Kit, from GitHub, is a toolkit for spec-driven development with AI coding agents: write down what you are building and why before any code is written, then turn that specification into a plan, then into tasks, and only then into working code. You set the project's principles once, like code quality and testing standards, and for each feature you write the spec, plan it, break it into tasks, build it, and check the result against the spec. It also covers fixing bugs, where you assess the cause first and verify the fix afterward, and assessing ideas, ending with a clear go, clarify, or stop decision. It works with the major coding assistants and is MIT licensed.",
-    "usage": "Give a coding agent a written spec to work from so it stops drifting and you have a document to point back to when it goes off track."
-  },
-  {
-    "repo": "The-PR-Agent/pr-agent",
-    "link": "https://github.com/The-PR-Agent/pr-agent",
-    "date": "2026-11-04",
-    "stars": 14517,
-    "description": "PR Agent is the original open source AI code reviewer, now community owned after its creators donated it to the open source community. When a developer submits a pull request, a proposed change to the shared codebase, it describes what changed in plain language, reviews the code for problems, and suggests concrete improvements, and you can ask it questions about a pull request and get answers drawn from the code itself. It works with GitHub, GitLab, Bitbucket, and Azure DevOps, and with models from OpenAI, Anthropic, Google, DeepSeek, and others, so a team can use whatever model it already pays for. Each review is designed to run in roughly one model call in about thirty seconds.",
-    "usage": "Put a quick second pair of eyes on every pull request before a human reviews it, catching bugs and sloppy work early."
-  },
-  {
-    "repo": "garrytan/gstack",
-    "link": "https://github.com/garrytan/gstack",
-    "date": "2026-11-04",
-    "stars": 139047,
-    "description": "Gstack is Y Combinator president Garry Tan's own Claude Code setup, shared publicly: a set of commands that turns a coding assistant into a virtual engineering team. Instead of one blank prompt box, you get roles that do the job each is good at: a chief executive role that pushes back on your product idea, an engineering manager that locks down the architecture, a designer that catches the generic AI look before it ships, a reviewer that finds bugs automated tests miss, a quality lead that opens a real browser and reproduces bugs, and a release engineer that ships the final change. It installs in about thirty seconds, now works with Codex, Cursor, and OpenCode too, and because it is written in plain Markdown commands you can keep the roles you like and drop the rest. It is MIT licensed.",
-    "usage": "Steal a disciplined, ready-made AI workflow for building and shipping software, or borrow individual roles like the reviewer and quality lead for your own setup."
-  },
-  {
-    "repo": "scenario-labs/skills",
-    "link": "https://github.com/scenario-labs/skills",
-    "date": "2026-11-04",
-    "stars": 2103,
-    "description": "Scenario Skills is a collection of agent skills that teach coding agents how to produce production-ready images, video, audio, and 3D assets through Scenario's media service. The skills do not just say make an image: they pick the right model for the job, tell you the price before you spend money, and keep characters and brands consistent across many generations, so the same hero character looks like the same person across fifty game scenes. A second half covers expert teams that drive professional creative software installed on your own machine, like Blender, Maya, ZBrush, Unreal Engine, and Unity, following workflows distilled from expert tutorials and official documentation instead of guessing how a complex tool works. It works with Claude Code, Cursor, Codex, Copilot, and dozens of other assistants, and is MIT licensed.",
-    "usage": "Let a coding agent generate production media with consistent characters and honest prices, or drive professional creative tools on your own machine."
-  },
-  {
-    "repo": "calesthio/OpenMontage",
-    "link": "https://github.com/calesthio/OpenMontage",
-    "date": "2026-11-04",
-    "stars": 76244,
-    "description": "OpenMontage calls itself the first open source agentic video production system: it turns your AI coding assistant into a full video production studio. You describe what you want in plain language, and the agent handles research, scripting, asset generation, editing, and final composition, with twelve production pipelines, more than one hundred tools, and more than seven hundred skill and production knowledge files behind it. Examples include a sixty-second animated story made for about a dollar and thirty-three cents, a documentary built from real footage with narration and animated maps, and a fly-through 3D world built from one prompt. It estimates the cost before generating anything, keeps an audit trail of every decision, shows a live storyboard as it runs, and pauses for your approval before rendering. It is licensed under the AGPL and works with Claude Code, Cursor, Copilot, and Codex.",
-    "usage": "Make a real video from a single idea, with cost estimates up front and an approval step before the final render."
-  },
-  {
-    "repo": "google/skills",
-    "link": "https://github.com/google/skills",
-    "date": "2026-11-05",
-    "stars": 22121,
-    "description": "Google's official Agent Skills for Google Cloud and Google products: reusable playbooks that teach a coding agent how to build, deploy, and troubleshoot on Google's platform. Instead of the agent guessing how to use a Google service or re-reading documentation every time, a skill gives it a step-by-step workflow, so a request like setting up a Cloud Run deployment or debugging a BigQuery query follows Google's own recommended path.",
-    "usage": "Install the skills for the Google products you use so your coding agent follows Google's official workflow instead of guessing."
-  },
-  {
-    "repo": "vercel-labs/agent-browser",
-    "link": "https://github.com/vercel-labs/agent-browser",
-    "date": "2026-11-05",
-    "stars": 45635,
-    "description": "A command-line browser built for AI agents. Instead of taking screenshots and guessing where to click, the agent drives the web one shell command at a time: open a page, click a button, fill in a form, read the result. It turns the messy job of using a website into a sequence of simple, repeatable commands that an agent can run, check, and retry, which is exactly how agents work best.",
-    "usage": "Give an AI agent a way to use real websites from the terminal, like filling a form or checking a page, without screenshots or guesswork."
-  },
-  {
-    "repo": "ConardLi/garden-skills",
-    "link": "https://github.com/ConardLi/garden-skills",
-    "date": "2026-11-05",
-    "stars": 13958,
-    "description": "A curated set of agent skills for web design, video, image generation, and knowledge retrieval, built to make AI-made work look polished. The recurring complaint about AI output is that it looks generic, so these skills package the techniques that experienced makers use: better layouts and styling for web pages, stronger prompts and workflows for images and video, and structured ways to pull in knowledge, so the result looks like someone who knew what they were doing made it.",
-    "usage": "Add these skills to your coding agent when you want its websites, images, and videos to look finished instead of generic."
-  },
-  {
-    "repo": "microsoft/VibeVoice",
-    "link": "https://github.com/microsoft/VibeVoice",
-    "date": "2026-11-05",
-    "stars": 55422,
-    "description": "Microsoft's open-source voice AI family, with two sides: speech-to-text that transcribes hour-long audio in a single pass instead of chopping it into short clips, and text-to-speech that can speak with up to four distinct voices at once, so a conversation or a story with multiple characters sounds like different people. It is a research-grade open model family, free to run and build on.",
-    "usage": "Transcribe long recordings in one pass, or generate multi-voice audio for a podcast, story, or conversation, with open models you can run yourself."
-  },
-  {
-    "repo": "zed-industries/zed",
-    "link": "https://github.com/zed-industries/zed",
-    "date": "2026-11-06",
-    "stars": 93031,
-    "description": "Zed is a code editor built for speed, from the team behind Atom and Tree-sitter, written in Rust so it opens fast, types fast, and lets several people edit the same file together like a shared document. It has quietly become an AI coding editor too, with a built-in agent panel where an assistant can write code, fix bugs, or explain your project, and it now supports the agent-skills format, the small instruction packs that teach an assistant how to do a specific job well. With about ninety-three thousand stars it is one of the biggest names ever covered on a daily window.",
-    "usage": "Try it as your code editor if you want an instant-feeling editor with an AI assistant built in."
-  },
-  {
-    "repo": "Orkas-AI/Orkas",
-    "link": "https://github.com/Orkas-AI/Orkas",
-    "date": "2026-11-06",
-    "stars": 9057,
-    "description": "Orkas is a desktop app that gives you a whole team of AI agents for the work that never ends: research, writing, videos, spreadsheets, and keeping an online store tidy. At the center is a Commander: you describe what you want in plain words, and it breaks the goal into steps and hands each one to the right specialist. There are sixteen specialists built in, including ones for content, slide decks, video editing, research with checkable sources, office files, and five that do nothing but e-commerce work like product research and reading customer reviews. The Commander can also bring in coding assistants you already use, like Claude Code and Codex, so one conversation can fix a bug, review the change, and draft the release note. Everything stays on your own computer by default, your files and conversations do not go to somebody else's server unless you choose that. It is free for Mac and Windows, open source under the MIT license.",
-    "usage": "Give a small business or side project a desktop team of agents that can research, write, make slides, edit video, and handle office files, all without leaving your computer."
-  },
-  {
-    "repo": "THU-MAIC/OpenMAIC",
-    "link": "https://github.com/THU-MAIC/OpenMAIC",
-    "date": "2026-11-06",
-    "stars": 42783,
-    "description": "OpenMAIC, from the MAIC lab at Tsinghua University, stands for Open Multi-Agent Interactive Classroom, and it turns any topic or document into a full interactive lesson, not a wall of text but a classroom. There is an AI teacher who explains the material, and AI classmates who ask questions and discuss it with you. The teacher can draw on a whiteboard, speak the lesson out loud, and quiz you along the way, and you can export the whole thing as a slide deck or as a single web page that plays offline. The newest version adds a project-based mode, where instead of just reading about something, you build a real project with an AI tutor guiding you through the requirements, the design, and the code. It is open source under the MIT license, and the team shipped a new release just yesterday.",
-    "usage": "Turn a topic or a document into an interactive lesson with an AI teacher and classmates, then export it as slides or a web page."
-  },
-  {
-    "repo": "deepseek-ai/dsh-superagent-prototype",
-    "link": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-    "date": "2026-11-06",
-    "stars": 20030,
-    "description": "DeepSeek's research prototype for a coding agent that does not wait to be asked. You connect it to a GitHub repo and it listens: when somebody on your team asks for work, in GitHub or in a chat app, the agent opens a work item, goes off into its own workspace, does the job, and comes back with a pull request, the standard way developers propose a change to a project, then answers in the original conversation. Its design principle is written right in the docs: take as little human attention as possible, and give as much value as possible. The agent only speaks when somebody has to act, and it only acts when asked, or when a rule the team wrote allows it. It is a prototype, not a finished product, and DeepSeek says so at the top of the page, but it gathered about twenty thousand stars after launching on October thirty-first. It is open source under the MIT license.",
-    "usage": "Connect it to a GitHub repo and let it pick up tasks from your team and return with a pull request, remembering it is research code, not a finished product."
-  },
-  {
-    "repo": "wangzan101/Mika",
-    "link": "https://github.com/wangzan101/Mika",
-    "date": "2026-11-06",
-    "stars": 7310,
-    "description": "Mika is an AI agent that lives on your Android phone and actually uses your apps for you. Say you want to send a message to a friend, find the cheapest nonstop flight, order takeout, or read through a long group chat and get a summary: you say it in one sentence, and Mika opens the app, taps the buttons, types the words, and scrolls through the screens, all on a hidden background screen, so you can keep using your phone normally while it works. It asks before it spends money, and it hands logins and payment screens back to you. It works with any app because it looks at the screen the way a person does, instead of needing a special connection to each app, and it remembers your preferences and turns finished tasks into skills, so the next time is faster. There is no Mika server in the middle: your data goes only to the AI provider you choose, and your keys and memories stay encrypted on the phone. It is open source under the Apache license, created on October twenty-ninth, so it is barely a week old. It is Android only, and works best on newer phones.",
-    "usage": "On Android, tell it in one sentence to send a message, find a flight, or order takeout, and it taps the buttons for you on a background screen while you keep using your phone."
-  },
-  {
-    "repo": "volcengine/OpenViking",
-    "link": "https://github.com/volcengine/OpenViking",
-    "date": "2026-11-06",
-    "stars": 41683,
-    "description": "OpenViking, from Volcengine, part of ByteDance, is a context database for AI agents, one organized place where an agent keeps everything it knows: its memory, its knowledge, and its skills. It tackles a problem that comes up again and again: AI agents forget things, every session starts fresh and the agent has to relearn who you are and what your project is about. The clever part is how it organizes that knowledge. Most agent memory is a black box, text goes in and nobody can see what actually got stored. OpenViking stores everything as a virtual file system, so knowledge and memories and skills are just files and folders you can browse, read, and edit: project docs in one folder, preferences in another, learned skills in a third. Each folder carries a short summary, so the agent can scan the summary first and decide what is worth reading in full. In their own tests, giving an agent this kind of memory lifted its accuracy on long conversations from the mid twenties and fifties up into the low eighties. It plugs into Claude Code, Codex, Cursor, and several others.",
-    "usage": "Give your coding agent a memory that files everything as readable folders, so it stops starting every session from scratch."
-  },
-  {
-    "repo": "omnigent-ai/omnigent",
-    "link": "https://github.com/omnigent-ai/omnigent",
-    "date": "2026-11-06",
-    "stars": 11259,
-    "description": "Omnigent is a meta-harness, a control layer that runs Claude Code, Codex, Cursor, Pi, and custom agents under one roof. Right now each of those tools is its own world, with its own sessions and its own rules; Omnigent sits above them all. You can run several agents together in the same session, ask one to review another's work, or split a task across agents that are each good at different things. Your sessions follow you from your terminal to your browser to your phone, and you can share a session with a teammate so they can watch the agent work live or take the wheel themselves. There are guardrails too: you can set policies that make the agent pause for your approval before risky actions, cap how much it can spend, or limit which tools it can reach. It is open source under the Apache license, and still labeled alpha, so expect rough edges.",
-    "usage": "Run Claude Code, Codex, Cursor, and other agents under one control layer with shared sessions, spending caps, and approval rules, accepting that it is still alpha software."
-  }
+ {
+  "date": "2026-11-02",
+  "description": "Agent Desktop solves a problem that has frustrated agent builders for years: how does an AI agent actually use your computer? Until now the usual answer was screenshots, with the agent guessing where buttons are and clicking, which breaks whenever anything moves or resizes. Agent Desktop takes a different approach and reads the structure the operating system already keeps about every app, the accessibility tree, the same information screen readers use. Every clickable thing gets a short reference code, the agent clicks the code rather than a screen coordinate, and then it takes a fresh snapshot to confirm the click did what it was supposed to do. It works on Mac, Windows, and Linux, is written in Rust, and is open source under the Apache license.",
+  "link": "https://github.com/vercel-labs/agent-desktop",
+  "repo": "vercel-labs/agent-desktop",
+  "stars": 8329,
+  "usage": "Build agents that do real work inside real apps, like filing a form or organizing files, reliably instead of flakily."
+ },
+ {
+  "date": "2026-11-02",
+  "description": "Worktrunk is a command-line tool for Git worktrees, which are separate copies of the same project sitting in their own folders. That matters because it lets a second agent work on a different feature without touching the first agent's work, like giving every cook in a kitchen their own counter instead of making them share one cutting board. Git's built-in worktree commands are clunky, so Worktrunk turns them into short, friendly commands: one switch command creates the copy and can start Claude Code right there, and one command merges the work back and cleans up. It also shows a live list of every worktree with its status, generates commit messages, shares build caches so ten copies do not each rebuild everything, and gives each copy its own port number so test servers do not collide.",
+  "link": "https://github.com/max-sixty/worktrunk",
+  "repo": "max-sixty/worktrunk",
+  "stars": 9869,
+  "usage": "Run two or more coding agents in parallel on the same project without them tripping over each other."
+ },
+ {
+  "date": "2026-11-02",
+  "description": "Nanochat, from Andrej Karpathy, is the simplest possible toolkit for training your own language model from scratch and chatting with it when you are done. There is basically one dial to turn, called depth, which is just how many layers the model has; everything else, like width, attention heads, and learning rate, gets worked out automatically for that size. The headline example is a small model with about the capability of the original GPT-2 from 2019, which cost around forty-three thousand dollars to train back then and now takes roughly two hours on a rented machine with eight top-end graphics cards for about forty-eight dollars. It covers the whole pipeline, from turning text into tokens through training, fine-tuning, testing, and chatting, in plain Python with PyTorch.",
+  "link": "https://github.com/karpathy/nanochat",
+  "repo": "karpathy/nanochat",
+  "stars": 59678,
+  "usage": "Learn what is actually inside a chatbot by training a tiny model on a laptop, or scale up to a full run and end up with something you can talk to."
+ },
+ {
+  "date": "2026-11-02",
+  "description": "Heretic lets you modify a language model you already run on your own computer, without retraining it at all. When you download an open model it comes with behaviors baked in by its maker: it might refuse certain questions, pad answers with generic filler, or agree with you too eagerly. Heretic uses mathematical techniques to adjust the model's inner settings so those behaviors change. You give it example prompts, it scores how the model responds, and an optimizer searches for the adjustment that gets the behavior you want. The default setup reduces refusals, with ready-made setups for cutting filler, toning down humor, or reducing that overly agreeable tone. On a decent gaming computer, processing a mid-sized model takes about thirty to forty minutes, and afterward you can save it, share it, chat with it, or run standard benchmarks.",
+  "link": "https://github.com/p-e-w/heretic",
+  "repo": "p-e-w/heretic",
+  "stars": 37842,
+  "usage": "Shape an open model you own to behave the way you want, on hardware you own, instead of only renting behavior from a big company."
+ },
+ {
+  "date": "2026-11-02",
+  "description": "Pstack-claude ports the pstack workflow system for coding agents to Claude Code, Codex, GitHub Copilot, Pi, OpenCode, and others. If you use a coding agent you may have noticed it sometimes rushes ahead, writes messy code, or skips checking its work. Pstack is a set of playbooks, structured workflows, that the agent follows instead: for a bug it first reproduces the failure, then investigates, then delegates the fix, then reruns the failing test to prove the fix works; for a new feature it plans first and brings in an architect step before writing code; and for the trickiest timing bugs it can even verify code with formal mathematical checking tools. It is open source under the MIT license.",
+  "link": "https://github.com/michael-denyer/pstack-claude",
+  "repo": "michael-denyer/pstack-claude",
+  "stars": 3769,
+  "usage": "Give a coding agent a disciplined checklist so it plans, verifies, and proves its fixes instead of rushing ahead."
+ },
+ {
+  "date": "2026-11-01",
+  "description": "Handy is free, open source speech-to-text that works completely offline. Instead of sending your voice to a cloud service for transcription, it does the whole job on your own machine, which keeps your spoken words private and means it keeps working with no internet connection at all.",
+  "link": "https://github.com/cjpais/Handy",
+  "repo": "cjpais/Handy",
+  "stars": 37043,
+  "usage": "Dictate into any app on your computer without sending audio to the cloud."
+ },
+ {
+  "date": "2026-11-01",
+  "description": "Kornia is a Python library for computer vision and spatial AI built on PyTorch, with over 1,200 image and geometry tools. It gives researchers and developers a single, well-tested toolkit for the low-level vision operations that sit underneath most image and 3D AI work, rather than everyone reimplementing the same routines.",
+  "link": "https://github.com/kornia/kornia",
+  "repo": "kornia/kornia",
+  "stars": 12021,
+  "usage": "Add image processing, geometry, and spatial AI operations to a Python project built on PyTorch."
+ },
+ {
+  "date": "2026-11-01",
+  "description": "AiSOC is an open source, self-hostable AI security operations center. It triages security alerts with AI agents and keeps a replayable record of every decision, so a team can see exactly why an alert was handled the way it was. Because you host it yourself, your alert data stays on your own infrastructure instead of going to a third-party service.",
+  "link": "https://github.com/beenuar/AiSOC",
+  "repo": "beenuar/AiSOC",
+  "stars": 6571,
+  "usage": "Run your own AI-assisted security operations center for triaging alerts, with a full audit trail of each decision."
+ },
+ {
+  "date": "2026-11-01",
+  "description": "Hex is local-first voice dictation for Mac, built in Rust, with no cloud involved. Everything you say is transcribed on your own machine, which makes it fast and private, and it is designed to feel like a native Mac utility rather than a web service wrapped in an app.",
+  "link": "https://github.com/anomalyco/hex",
+  "repo": "anomalyco/hex",
+  "stars": 3897,
+  "usage": "Dictate on a Mac with everything staying on the machine, no audio sent anywhere."
+ },
+ {
+  "date": "2026-11-01",
+  "description": "FreeToken runs huge open AI models locally on a regular gaming PC at interactive speed, instead of needing a data center. It removes the usual barrier to running big models yourself, which is renting expensive server GPUs, and makes local inference practical on hardware many people already own.",
+  "link": "https://github.com/FlashML-org/FreeToken",
+  "repo": "FlashML-org/FreeToken",
+  "stars": 15827,
+  "usage": "Run large open models at home on a gaming PC and chat with them at interactive speed, with no API bills."
+ },
+ {
+  "repo": "spotify/portal-ai-plugins",
+  "link": "https://github.com/spotify/portal-ai-plugins",
+  "date": "2026-11-03",
+  "stars": 2924,
+  "description": "Spotify's official plugins that plug its internal developer platform, Portal, straight into your coding assistant. Portal is the control room for all of Spotify's software: every service, who owns it, whether it is healthy, and whether an incident is open. Once installed in Claude Code, Codex, Cursor, or pi, you can ask your assistant in plain language for a service briefing, search the software catalog, or run diagnostics, instead of clicking through dashboards. It can even trigger Portal actions, but with safety rails: a dry-run mode and a confirmation step so you see what it is about to do first. A bonus plugin called shunt routes boring heavy lifting, like reading lots of files or generating boilerplate, to cheaper worker models so the expensive smart model stays on the hard thinking. It is open source under the Apache license.",
+  "usage": "If you run a platform team or lots of services, study the pattern or adapt it: give your agent read access to your service catalog and safe, confirmed ways to take action."
+ },
+ {
+  "repo": "Usagi-org/ai-goofish-monitor",
+  "link": "https://github.com/Usagi-org/ai-goofish-monitor",
+  "date": "2026-11-03",
+  "stars": 16140,
+  "description": "An AI-powered watchdog for Xianyu, known internationally as Goofish, China's huge secondhand marketplace. You describe what you want in plain language, with a price range, shipping, and region filters if you like, and it watches listings around the clock. When a new listing appears it grabs the details and photos, and a vision model judges whether it actually matches what you asked for, instead of just matching keywords and pinging you about junk. Real matches reach you by Telegram, Bark, enterprise chat tools, webhooks, and more, and a web dashboard lets you manage tasks, accounts, and results. It runs in Docker with a small local database, and paces itself through rotating accounts and proxies so the marketplace does not block it.",
+  "usage": "Set it watching for a specific used item at a specific price and get pinged only when a genuine match appears, instead of refreshing listings all day."
+ },
+ {
+  "repo": "NVIDIA/auto-ontology",
+  "link": "https://github.com/NVIDIA/auto-ontology",
+  "date": "2026-11-04",
+  "stars": 3764,
+  "description": "Auto Ontology, from NVIDIA, builds a map of meaning over a company's databases before an AI agent ever answers a question. Instead of letting the agent guess which tables to join and what a term like revenue means in that system, it turns the database structure into clear business definitions with the relationships worked out in advance, and a human can review and approve that map in a web interface. When you ask a question, the agent uses the approved definitions, shows you the database query it ran and the steps it took, and if the data simply cannot answer the question, it says so instead of inventing a confident answer. It is open source under the Apache license.",
+  "usage": "Build an assistant that answers questions about real business data and can show its work, instead of guessing at table joins and definitions."
+ },
+ {
+  "repo": "github/spec-kit",
+  "link": "https://github.com/github/spec-kit",
+  "date": "2026-11-04",
+  "stars": 146948,
+  "description": "Spec Kit, from GitHub, is a toolkit for spec-driven development with AI coding agents: write down what you are building and why before any code is written, then turn that specification into a plan, then into tasks, and only then into working code. You set the project's principles once, like code quality and testing standards, and for each feature you write the spec, plan it, break it into tasks, build it, and check the result against the spec. It also covers fixing bugs, where you assess the cause first and verify the fix afterward, and assessing ideas, ending with a clear go, clarify, or stop decision. It works with the major coding assistants and is MIT licensed.",
+  "usage": "Give a coding agent a written spec to work from so it stops drifting and you have a document to point back to when it goes off track."
+ },
+ {
+  "repo": "The-PR-Agent/pr-agent",
+  "link": "https://github.com/The-PR-Agent/pr-agent",
+  "date": "2026-11-04",
+  "stars": 14517,
+  "description": "PR Agent is the original open source AI code reviewer, now community owned after its creators donated it to the open source community. When a developer submits a pull request, a proposed change to the shared codebase, it describes what changed in plain language, reviews the code for problems, and suggests concrete improvements, and you can ask it questions about a pull request and get answers drawn from the code itself. It works with GitHub, GitLab, Bitbucket, and Azure DevOps, and with models from OpenAI, Anthropic, Google, DeepSeek, and others, so a team can use whatever model it already pays for. Each review is designed to run in roughly one model call in about thirty seconds.",
+  "usage": "Put a quick second pair of eyes on every pull request before a human reviews it, catching bugs and sloppy work early."
+ },
+ {
+  "repo": "garrytan/gstack",
+  "link": "https://github.com/garrytan/gstack",
+  "date": "2026-11-04",
+  "stars": 139047,
+  "description": "Gstack is Y Combinator president Garry Tan's own Claude Code setup, shared publicly: a set of commands that turns a coding assistant into a virtual engineering team. Instead of one blank prompt box, you get roles that do the job each is good at: a chief executive role that pushes back on your product idea, an engineering manager that locks down the architecture, a designer that catches the generic AI look before it ships, a reviewer that finds bugs automated tests miss, a quality lead that opens a real browser and reproduces bugs, and a release engineer that ships the final change. It installs in about thirty seconds, now works with Codex, Cursor, and OpenCode too, and because it is written in plain Markdown commands you can keep the roles you like and drop the rest. It is MIT licensed.",
+  "usage": "Steal a disciplined, ready-made AI workflow for building and shipping software, or borrow individual roles like the reviewer and quality lead for your own setup."
+ },
+ {
+  "repo": "scenario-labs/skills",
+  "link": "https://github.com/scenario-labs/skills",
+  "date": "2026-11-04",
+  "stars": 2103,
+  "description": "Scenario Skills is a collection of agent skills that teach coding agents how to produce production-ready images, video, audio, and 3D assets through Scenario's media service. The skills do not just say make an image: they pick the right model for the job, tell you the price before you spend money, and keep characters and brands consistent across many generations, so the same hero character looks like the same person across fifty game scenes. A second half covers expert teams that drive professional creative software installed on your own machine, like Blender, Maya, ZBrush, Unreal Engine, and Unity, following workflows distilled from expert tutorials and official documentation instead of guessing how a complex tool works. It works with Claude Code, Cursor, Codex, Copilot, and dozens of other assistants, and is MIT licensed.",
+  "usage": "Let a coding agent generate production media with consistent characters and honest prices, or drive professional creative tools on your own machine."
+ },
+ {
+  "repo": "calesthio/OpenMontage",
+  "link": "https://github.com/calesthio/OpenMontage",
+  "date": "2026-11-04",
+  "stars": 76244,
+  "description": "OpenMontage calls itself the first open source agentic video production system: it turns your AI coding assistant into a full video production studio. You describe what you want in plain language, and the agent handles research, scripting, asset generation, editing, and final composition, with twelve production pipelines, more than one hundred tools, and more than seven hundred skill and production knowledge files behind it. Examples include a sixty-second animated story made for about a dollar and thirty-three cents, a documentary built from real footage with narration and animated maps, and a fly-through 3D world built from one prompt. It estimates the cost before generating anything, keeps an audit trail of every decision, shows a live storyboard as it runs, and pauses for your approval before rendering. It is licensed under the AGPL and works with Claude Code, Cursor, Copilot, and Codex.",
+  "usage": "Make a real video from a single idea, with cost estimates up front and an approval step before the final render."
+ },
+ {
+  "repo": "google/skills",
+  "link": "https://github.com/google/skills",
+  "date": "2026-11-05",
+  "stars": 22121,
+  "description": "Google's official Agent Skills for Google Cloud and Google products: reusable playbooks that teach a coding agent how to build, deploy, and troubleshoot on Google's platform. Instead of the agent guessing how to use a Google service or re-reading documentation every time, a skill gives it a step-by-step workflow, so a request like setting up a Cloud Run deployment or debugging a BigQuery query follows Google's own recommended path.",
+  "usage": "Install the skills for the Google products you use so your coding agent follows Google's official workflow instead of guessing."
+ },
+ {
+  "repo": "vercel-labs/agent-browser",
+  "link": "https://github.com/vercel-labs/agent-browser",
+  "date": "2026-11-05",
+  "stars": 45635,
+  "description": "A command-line browser built for AI agents. Instead of taking screenshots and guessing where to click, the agent drives the web one shell command at a time: open a page, click a button, fill in a form, read the result. It turns the messy job of using a website into a sequence of simple, repeatable commands that an agent can run, check, and retry, which is exactly how agents work best.",
+  "usage": "Give an AI agent a way to use real websites from the terminal, like filling a form or checking a page, without screenshots or guesswork."
+ },
+ {
+  "repo": "ConardLi/garden-skills",
+  "link": "https://github.com/ConardLi/garden-skills",
+  "date": "2026-11-05",
+  "stars": 13958,
+  "description": "A curated set of agent skills for web design, video, image generation, and knowledge retrieval, built to make AI-made work look polished. The recurring complaint about AI output is that it looks generic, so these skills package the techniques that experienced makers use: better layouts and styling for web pages, stronger prompts and workflows for images and video, and structured ways to pull in knowledge, so the result looks like someone who knew what they were doing made it.",
+  "usage": "Add these skills to your coding agent when you want its websites, images, and videos to look finished instead of generic."
+ },
+ {
+  "repo": "microsoft/VibeVoice",
+  "link": "https://github.com/microsoft/VibeVoice",
+  "date": "2026-11-05",
+  "stars": 55422,
+  "description": "Microsoft's open-source voice AI family, with two sides: speech-to-text that transcribes hour-long audio in a single pass instead of chopping it into short clips, and text-to-speech that can speak with up to four distinct voices at once, so a conversation or a story with multiple characters sounds like different people. It is a research-grade open model family, free to run and build on.",
+  "usage": "Transcribe long recordings in one pass, or generate multi-voice audio for a podcast, story, or conversation, with open models you can run yourself."
+ },
+ {
+  "repo": "zed-industries/zed",
+  "link": "https://github.com/zed-industries/zed",
+  "date": "2026-11-06",
+  "stars": 93031,
+  "description": "Zed is a code editor built for speed, from the team behind Atom and Tree-sitter, written in Rust so it opens fast, types fast, and lets several people edit the same file together like a shared document. It has quietly become an AI coding editor too, with a built-in agent panel where an assistant can write code, fix bugs, or explain your project, and it now supports the agent-skills format, the small instruction packs that teach an assistant how to do a specific job well. With about ninety-three thousand stars it is one of the biggest names ever covered on a daily window.",
+  "usage": "Try it as your code editor if you want an instant-feeling editor with an AI assistant built in."
+ },
+ {
+  "repo": "Orkas-AI/Orkas",
+  "link": "https://github.com/Orkas-AI/Orkas",
+  "date": "2026-11-06",
+  "stars": 9057,
+  "description": "Orkas is a desktop app that gives you a whole team of AI agents for the work that never ends: research, writing, videos, spreadsheets, and keeping an online store tidy. At the center is a Commander: you describe what you want in plain words, and it breaks the goal into steps and hands each one to the right specialist. There are sixteen specialists built in, including ones for content, slide decks, video editing, research with checkable sources, office files, and five that do nothing but e-commerce work like product research and reading customer reviews. The Commander can also bring in coding assistants you already use, like Claude Code and Codex, so one conversation can fix a bug, review the change, and draft the release note. Everything stays on your own computer by default, your files and conversations do not go to somebody else's server unless you choose that. It is free for Mac and Windows, open source under the MIT license.",
+  "usage": "Give a small business or side project a desktop team of agents that can research, write, make slides, edit video, and handle office files, all without leaving your computer."
+ },
+ {
+  "repo": "THU-MAIC/OpenMAIC",
+  "link": "https://github.com/THU-MAIC/OpenMAIC",
+  "date": "2026-11-06",
+  "stars": 42783,
+  "description": "OpenMAIC, from the MAIC lab at Tsinghua University, stands for Open Multi-Agent Interactive Classroom, and it turns any topic or document into a full interactive lesson, not a wall of text but a classroom. There is an AI teacher who explains the material, and AI classmates who ask questions and discuss it with you. The teacher can draw on a whiteboard, speak the lesson out loud, and quiz you along the way, and you can export the whole thing as a slide deck or as a single web page that plays offline. The newest version adds a project-based mode, where instead of just reading about something, you build a real project with an AI tutor guiding you through the requirements, the design, and the code. It is open source under the MIT license, and the team shipped a new release just yesterday.",
+  "usage": "Turn a topic or a document into an interactive lesson with an AI teacher and classmates, then export it as slides or a web page."
+ },
+ {
+  "repo": "deepseek-ai/dsh-superagent-prototype",
+  "link": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "date": "2026-11-06",
+  "stars": 20030,
+  "description": "DeepSeek's research prototype for a coding agent that does not wait to be asked. You connect it to a GitHub repo and it listens: when somebody on your team asks for work, in GitHub or in a chat app, the agent opens a work item, goes off into its own workspace, does the job, and comes back with a pull request, the standard way developers propose a change to a project, then answers in the original conversation. Its design principle is written right in the docs: take as little human attention as possible, and give as much value as possible. The agent only speaks when somebody has to act, and it only acts when asked, or when a rule the team wrote allows it. It is a prototype, not a finished product, and DeepSeek says so at the top of the page, but it gathered about twenty thousand stars after launching on October thirty-first. It is open source under the MIT license.",
+  "usage": "Connect it to a GitHub repo and let it pick up tasks from your team and return with a pull request, remembering it is research code, not a finished product."
+ },
+ {
+  "repo": "wangzan101/Mika",
+  "link": "https://github.com/wangzan101/Mika",
+  "date": "2026-11-06",
+  "stars": 7310,
+  "description": "Mika is an AI agent that lives on your Android phone and actually uses your apps for you. Say you want to send a message to a friend, find the cheapest nonstop flight, order takeout, or read through a long group chat and get a summary: you say it in one sentence, and Mika opens the app, taps the buttons, types the words, and scrolls through the screens, all on a hidden background screen, so you can keep using your phone normally while it works. It asks before it spends money, and it hands logins and payment screens back to you. It works with any app because it looks at the screen the way a person does, instead of needing a special connection to each app, and it remembers your preferences and turns finished tasks into skills, so the next time is faster. There is no Mika server in the middle: your data goes only to the AI provider you choose, and your keys and memories stay encrypted on the phone. It is open source under the Apache license, created on October twenty-ninth, so it is barely a week old. It is Android only, and works best on newer phones.",
+  "usage": "On Android, tell it in one sentence to send a message, find a flight, or order takeout, and it taps the buttons for you on a background screen while you keep using your phone."
+ },
+ {
+  "repo": "volcengine/OpenViking",
+  "link": "https://github.com/volcengine/OpenViking",
+  "date": "2026-11-06",
+  "stars": 41683,
+  "description": "OpenViking, from Volcengine, part of ByteDance, is a context database for AI agents, one organized place where an agent keeps everything it knows: its memory, its knowledge, and its skills. It tackles a problem that comes up again and again: AI agents forget things, every session starts fresh and the agent has to relearn who you are and what your project is about. The clever part is how it organizes that knowledge. Most agent memory is a black box, text goes in and nobody can see what actually got stored. OpenViking stores everything as a virtual file system, so knowledge and memories and skills are just files and folders you can browse, read, and edit: project docs in one folder, preferences in another, learned skills in a third. Each folder carries a short summary, so the agent can scan the summary first and decide what is worth reading in full. In their own tests, giving an agent this kind of memory lifted its accuracy on long conversations from the mid twenties and fifties up into the low eighties. It plugs into Claude Code, Codex, Cursor, and several others.",
+  "usage": "Give your coding agent a memory that files everything as readable folders, so it stops starting every session from scratch."
+ },
+ {
+  "repo": "omnigent-ai/omnigent",
+  "link": "https://github.com/omnigent-ai/omnigent",
+  "date": "2026-11-06",
+  "stars": 11259,
+  "description": "Omnigent is a meta-harness, a control layer that runs Claude Code, Codex, Cursor, Pi, and custom agents under one roof. Right now each of those tools is its own world, with its own sessions and its own rules; Omnigent sits above them all. You can run several agents together in the same session, ask one to review another's work, or split a task across agents that are each good at different things. Your sessions follow you from your terminal to your browser to your phone, and you can share a session with a teammate so they can watch the agent work live or take the wheel themselves. There are guardrails too: you can set policies that make the agent pause for your approval before risky actions, cap how much it can spend, or limit which tools it can reach. It is open source under the Apache license, and still labeled alpha, so expect rough edges.",
+  "usage": "Run Claude Code, Codex, Cursor, and other agents under one control layer with shared sessions, spending caps, and approval rules, accepting that it is still alpha software."
+ },
+ {
+  "repo": "meta/astryx",
+  "link": "https://github.com/meta/astryx",
+  "date": "2026-11-07",
+  "stars": 14149,
+  "description": "Astryx is Meta's open-source design system, the shared kit of buttons, menus, forms, layouts, and color and spacing rules behind more than thirteen thousand apps inside Meta. It is now in beta and open source under the MIT license, and it is built from the ground up so that a person and an AI coding assistant can build with it the same way: instead of every team reinventing the same button, everyone builds from the same box of parts, so the whole app stays consistent.",
+  "usage": "Use Astryx as the shared design kit for a website or app so every button, form, and menu stays consistent, and let an AI coding assistant build with the same parts you use."
+ }
 ]

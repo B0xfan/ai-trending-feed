@@ -5,7 +5,17 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:59:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 12:59:28 +0000</lastBuildDate>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <guid isPermaLink="true">https://github.com/meta/astryx</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Astryx is Meta&#x27;s open-source design system, the shared kit of buttons, menus, forms, layouts, and color and spacing rules behind more than thirteen thousand apps inside Meta. It is now in beta and open source under the MIT license, and it is built from the ground up so that a person and an AI coding assistant can build with it the same way: instead of every team reinventing the same button, everyone builds from the same box of parts, so the whole app stays consistent.</p>
+<p><strong>Stars:</strong> 14149</p>
+<p><strong>Practical use:</strong> Use Astryx as the shared design kit for a website or app so every button, form, and menu stays consistent, and let an AI coding assistant build with the same parts you use.</p>
+<p><a href="https://github.com/meta/astryx">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>zed-industries/zed</title>
       <link>https://github.com/zed-industries/zed</link>
