@@ -5,7 +5,27 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 12:59:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 12:58:39 +0000</lastBuildDate>
+    <item>
+      <title>anthropics/claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-quickstarts</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Anthropic&#x27;s official collection of ready-to-run starter projects for building apps with the Claude API. There is a customer support agent that answers questions from a knowledge base, a financial analyst that chats about your numbers and draws charts, a demo where Claude drives a whole desktop computer, and an autonomous coding agent that plans the work, writes the code, and builds a complete application over several sessions. A newer set is built on Managed Agents, Anthropic&#x27;s way of running agents in the cloud, where the agent, its memory, and its schedule are all defined as files and deployed with a single command: a Daily Brief agent that summarizes team chat and code changes every weekday morning, a Slack bot, and an agent that watches error reports, finds the root cause, and opens a fix for a human to review. It is free under the MIT license.</p>
+<p><strong>Stars:</strong> 19188</p>
+<p><strong>Practical use:</strong> Clone the starter closest to what you want to build with Claude and have a working agent in minutes instead of a weekend of reading docs.</p>
+<p><a href="https://github.com/anthropics/claude-quickstarts">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>blader/humanizer</title>
+      <link>https://github.com/blader/humanizer</link>
+      <guid isPermaLink="true">https://github.com/blader/humanizer</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Humanizer is an agent skill that rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. It is built on Wikipedia&#x27;s guide to spotting AI writing, the checklist Wikipedia editors use to catch machine-written text, and it looks for twenty-six specific patterns: the not-this-but-that construction, the one-line closer like Let that sink in, vague deep-sounding phrases, throat-clearing run-ups like Here is the thing, arguing with nobody, triple examples, repeated sentence openings, words like delve and landscape, and chatbot residue like Great question. It works inside Claude Code, Codex, Cursor, and other coding agents, leaves code, data, and links alone, and can match your own writing voice from a couple of sample paragraphs. In a blind test, judges preferred its rewrite sixteen times out of sixteen. It is upfront that it is not about fooling AI detectors; the point is writing for human readers.</p>
+<p><strong>Stars:</strong> 66183</p>
+<p><strong>Practical use:</strong> Paste in something you drafted with an AI assistant and see how many of the twenty-six patterns are sitting in your own writing, then let it rewrite the prose to sound like you on a good day.</p>
+<p><a href="https://github.com/blader/humanizer">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>meta/astryx</title>
       <link>https://github.com/meta/astryx</link>

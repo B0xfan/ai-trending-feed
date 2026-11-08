@@ -238,5 +238,21 @@
   "stars": 14149,
   "description": "Astryx is Meta's open-source design system, the shared kit of buttons, menus, forms, layouts, and color and spacing rules behind more than thirteen thousand apps inside Meta. It is now in beta and open source under the MIT license, and it is built from the ground up so that a person and an AI coding assistant can build with it the same way: instead of every team reinventing the same button, everyone builds from the same box of parts, so the whole app stays consistent.",
   "usage": "Use Astryx as the shared design kit for a website or app so every button, form, and menu stays consistent, and let an AI coding assistant build with the same parts you use."
+ },
+ {
+  "repo": "anthropics/claude-quickstarts",
+  "link": "https://github.com/anthropics/claude-quickstarts",
+  "date": "2026-11-08",
+  "stars": 19188,
+  "description": "Anthropic's official collection of ready-to-run starter projects for building apps with the Claude API. There is a customer support agent that answers questions from a knowledge base, a financial analyst that chats about your numbers and draws charts, a demo where Claude drives a whole desktop computer, and an autonomous coding agent that plans the work, writes the code, and builds a complete application over several sessions. A newer set is built on Managed Agents, Anthropic's way of running agents in the cloud, where the agent, its memory, and its schedule are all defined as files and deployed with a single command: a Daily Brief agent that summarizes team chat and code changes every weekday morning, a Slack bot, and an agent that watches error reports, finds the root cause, and opens a fix for a human to review. It is free under the MIT license.",
+  "usage": "Clone the starter closest to what you want to build with Claude and have a working agent in minutes instead of a weekend of reading docs."
+ },
+ {
+  "repo": "blader/humanizer",
+  "link": "https://github.com/blader/humanizer",
+  "date": "2026-11-08",
+  "stars": 66183,
+  "description": "Humanizer is an agent skill that rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. It is built on Wikipedia's guide to spotting AI writing, the checklist Wikipedia editors use to catch machine-written text, and it looks for twenty-six specific patterns: the not-this-but-that construction, the one-line closer like Let that sink in, vague deep-sounding phrases, throat-clearing run-ups like Here is the thing, arguing with nobody, triple examples, repeated sentence openings, words like delve and landscape, and chatbot residue like Great question. It works inside Claude Code, Codex, Cursor, and other coding agents, leaves code, data, and links alone, and can match your own writing voice from a couple of sample paragraphs. In a blind test, judges preferred its rewrite sixteen times out of sixteen. It is upfront that it is not about fooling AI detectors; the point is writing for human readers.",
+  "usage": "Paste in something you drafted with an AI assistant and see how many of the twenty-six patterns are sitting in your own writing, then let it rewrite the prose to sound like you on a good day."
  }
 ]
