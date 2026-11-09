@@ -254,5 +254,29 @@
   "stars": 66183,
   "description": "Humanizer is an agent skill that rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. It is built on Wikipedia's guide to spotting AI writing, the checklist Wikipedia editors use to catch machine-written text, and it looks for twenty-six specific patterns: the not-this-but-that construction, the one-line closer like Let that sink in, vague deep-sounding phrases, throat-clearing run-ups like Here is the thing, arguing with nobody, triple examples, repeated sentence openings, words like delve and landscape, and chatbot residue like Great question. It works inside Claude Code, Codex, Cursor, and other coding agents, leaves code, data, and links alone, and can match your own writing voice from a couple of sample paragraphs. In a blind test, judges preferred its rewrite sixteen times out of sixteen. It is upfront that it is not about fooling AI detectors; the point is writing for human readers.",
   "usage": "Paste in something you drafted with an AI assistant and see how many of the twenty-six patterns are sitting in your own writing, then let it rewrite the prose to sound like you on a good day."
+ },
+ {
+  "repo": "garrytan/gbrain",
+  "link": "https://github.com/garrytan/gbrain",
+  "date": "2026-11-09",
+  "stars": 31873,
+  "description": "GBrain is Garry Tan's open-source memory layer for AI agents, so the assistant you use every day stops starting from zero each morning. It stores facts, not raw text, and every fact carries its source, so you can correct a fact or withdraw it entirely. Ask what you need to know before a meeting and it gives you the answer, plus an honest heads-up about what it does not know, instead of handing you five pages to read yourself. Tan runs it himself at serious scale: over 155,000 pages, about 24,000 people, and more than 5,000 companies in his own brain, with 66 automated jobs enriching it overnight. It works with Claude Code, Codex, ChatGPT, Cursor, and other coding agents, runs on your own hardware under the MIT license, and has a paid hosted version and a team version with permission controls if you would rather not run it yourself.",
+  "usage": "Give your coding agent a shared, sourced memory so it remembers your people, projects, and preferences across every conversation instead of forgetting them overnight."
+ },
+ {
+  "repo": "homeassistant-ai/ha-mcp",
+  "link": "https://github.com/homeassistant-ai/ha-mcp",
+  "date": "2026-11-09",
+  "stars": 5570,
+  "description": "HA-MCP is a server that connects AI assistants like Claude and ChatGPT to Home Assistant, the free smart-home platform that runs locally in your house. It speaks the Model Context Protocol, a standard plug that lets assistants reach outside tools, and installs with one click through Home Assistant's marketplace: restart, paste in a token, and you can say turn off the bedroom lights or is the front door locked in plain English. It exposes 87 tools for reading device state, switching things on and off, and changing settings, with a setup wizard that writes the configuration for more than 15 different AI clients. It takes security seriously: you can give the AI its own local-only Home Assistant account, keep remote access completely off, and the optional config-editing feature is off by default.",
+  "usage": "If you run Home Assistant, let an AI assistant control your lights, thermostat, and locks in plain English while everything stays on your own network."
+ },
+ {
+  "repo": "ZhuLinsen/daily_stock_analysis",
+  "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+  "date": "2026-11-09",
+  "stars": 68479,
+  "description": "Daily Stock Analysis is an LLM-powered stock briefing system covering Chinese, Hong Kong, US, Japanese, Korean, and Taiwanese markets, plus exchange traded funds. Give it the stocks you follow and every weekday it pulls market data, reads the latest news, and produces a decision dashboard with a score, a trend, a suggested action like buy, hold, or sell, and a list of risks and catalysts, then sends it to you over WeChat, Telegram, Discord, Slack, or plain email. It runs for free on GitHub Actions, no server to rent and no subscription, with setup in about five minutes from a fork. There is also a chat interface with 15 built-in analysis strategies and a web dashboard with holdings, history, and backtesting. The project is mostly in Chinese with an English translation available, and it carries a plain disclaimer that it is for learning and research only, not investment advice.",
+  "usage": "Fork it, add your API keys, and wake up to a free daily briefing on the stocks you follow, remembering it is a research tool, not a crystal ball."
  }
 ]

@@ -5,7 +5,37 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 12:58:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 12:59:05 +0000</lastBuildDate>
+    <item>
+      <title>garrytan/gbrain</title>
+      <link>https://github.com/garrytan/gbrain</link>
+      <guid isPermaLink="true">https://github.com/garrytan/gbrain</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>GBrain is Garry Tan&#x27;s open-source memory layer for AI agents, so the assistant you use every day stops starting from zero each morning. It stores facts, not raw text, and every fact carries its source, so you can correct a fact or withdraw it entirely. Ask what you need to know before a meeting and it gives you the answer, plus an honest heads-up about what it does not know, instead of handing you five pages to read yourself. Tan runs it himself at serious scale: over 155,000 pages, about 24,000 people, and more than 5,000 companies in his own brain, with 66 automated jobs enriching it overnight. It works with Claude Code, Codex, ChatGPT, Cursor, and other coding agents, runs on your own hardware under the MIT license, and has a paid hosted version and a team version with permission controls if you would rather not run it yourself.</p>
+<p><strong>Stars:</strong> 31873</p>
+<p><strong>Practical use:</strong> Give your coding agent a shared, sourced memory so it remembers your people, projects, and preferences across every conversation instead of forgetting them overnight.</p>
+<p><a href="https://github.com/garrytan/gbrain">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>homeassistant-ai/ha-mcp</title>
+      <link>https://github.com/homeassistant-ai/ha-mcp</link>
+      <guid isPermaLink="true">https://github.com/homeassistant-ai/ha-mcp</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>HA-MCP is a server that connects AI assistants like Claude and ChatGPT to Home Assistant, the free smart-home platform that runs locally in your house. It speaks the Model Context Protocol, a standard plug that lets assistants reach outside tools, and installs with one click through Home Assistant&#x27;s marketplace: restart, paste in a token, and you can say turn off the bedroom lights or is the front door locked in plain English. It exposes 87 tools for reading device state, switching things on and off, and changing settings, with a setup wizard that writes the configuration for more than 15 different AI clients. It takes security seriously: you can give the AI its own local-only Home Assistant account, keep remote access completely off, and the optional config-editing feature is off by default.</p>
+<p><strong>Stars:</strong> 5570</p>
+<p><strong>Practical use:</strong> If you run Home Assistant, let an AI assistant control your lights, thermostat, and locks in plain English while everything stays on your own network.</p>
+<p><a href="https://github.com/homeassistant-ai/ha-mcp">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ZhuLinsen/daily_stock_analysis</title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid isPermaLink="true">https://github.com/ZhuLinsen/daily_stock_analysis</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Daily Stock Analysis is an LLM-powered stock briefing system covering Chinese, Hong Kong, US, Japanese, Korean, and Taiwanese markets, plus exchange traded funds. Give it the stocks you follow and every weekday it pulls market data, reads the latest news, and produces a decision dashboard with a score, a trend, a suggested action like buy, hold, or sell, and a list of risks and catalysts, then sends it to you over WeChat, Telegram, Discord, Slack, or plain email. It runs for free on GitHub Actions, no server to rent and no subscription, with setup in about five minutes from a fork. There is also a chat interface with 15 built-in analysis strategies and a web dashboard with holdings, history, and backtesting. The project is mostly in Chinese with an English translation available, and it carries a plain disclaimer that it is for learning and research only, not investment advice.</p>
+<p><strong>Stars:</strong> 68479</p>
+<p><strong>Practical use:</strong> Fork it, add your API keys, and wake up to a free daily briefing on the stocks you follow, remembering it is a research tool, not a crystal ball.</p>
+<p><a href="https://github.com/ZhuLinsen/daily_stock_analysis">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>anthropics/claude-quickstarts</title>
       <link>https://github.com/anthropics/claude-quickstarts</link>
