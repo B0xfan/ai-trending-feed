@@ -278,5 +278,37 @@
   "stars": 68479,
   "description": "Daily Stock Analysis is an LLM-powered stock briefing system covering Chinese, Hong Kong, US, Japanese, Korean, and Taiwanese markets, plus exchange traded funds. Give it the stocks you follow and every weekday it pulls market data, reads the latest news, and produces a decision dashboard with a score, a trend, a suggested action like buy, hold, or sell, and a list of risks and catalysts, then sends it to you over WeChat, Telegram, Discord, Slack, or plain email. It runs for free on GitHub Actions, no server to rent and no subscription, with setup in about five minutes from a fork. There is also a chat interface with 15 built-in analysis strategies and a web dashboard with holdings, history, and backtesting. The project is mostly in Chinese with an English translation available, and it carries a plain disclaimer that it is for learning and research only, not investment advice.",
   "usage": "Fork it, add your API keys, and wake up to a free daily briefing on the stocks you follow, remembering it is a research tool, not a crystal ball."
+ },
+ {
+  "repo": "JosssphZhou/poki",
+  "link": "https://github.com/JosssphZhou/poki",
+  "date": "2026-11-10",
+  "stars": 875,
+  "description": "Poki lets an AI agent operate a real iPhone through a local MCP server, with no jailbreak and no extra hardware: it taps, types, and scrolls in real apps just like you would. Setup is mostly done by the agent itself; you only type your Apple Account into a setup window, tap Trust, and turn on Developer Mode, then connect with a USB cable and a free Apple Account. It works with Claude Code, Codex, and any tool that speaks MCP, has its own standalone agent, remembers past tasks so repeats run faster, and can even be talked to through iMessage or Telegram. It comes with honest limits and a warning: the free signing lasts seven days so you renew weekly, physical phone support has so far been verified only on iPhones using the Chinese interface in portrait orientation, and because it controls your real phone, whatever it does and whatever is on your screen goes to the model you configured.",
+  "usage": "Let a coding agent do things on your actual phone, like searching in Chrome and summarizing the result, while remembering this is a tool for people who understand what they are handing over."
+ },
+ {
+  "repo": "devvmhq/devvm",
+  "link": "https://github.com/devvmhq/devvm",
+  "date": "2026-11-10",
+  "stars": 515,
+  "description": "Devvm gives every project its own isolated virtual machine, so a coding agent works inside a sandbox instead of loose on your machine. You open a terminal in a project folder, type devvm, and it builds a small VM just for that project, figuring out the toolchain from the project's files and setting up the coding agents you already use, like Claude Code or Codex, inside it. The first build takes a few minutes; after that new VMs start in seconds. The safety design is the point: the VM can only reach the internet hosts you allow, and your secrets, like your GitHub token and Claude login, stay on your own machine and never move into the VM. A clone mode gives the VM its own copy of your code, so nothing it does can touch your working files or version history until you deliberately fetch its work back and review it. It is written in Go, runs its VMs on Lima, and is MIT licensed.",
+  "usage": "Run a coding agent on a real project without hesitating before every command, with your secrets kept at home and your files protected until you review the work."
+ },
+ {
+  "repo": "Balanov/uncut",
+  "link": "https://github.com/Balanov/uncut",
+  "date": "2026-11-10",
+  "stars": 262,
+  "description": "Uncut is a tiny headless coding-agent harness in one 7 MB static binary, 837 lines of Go, with four tools: read a file, write a file, replace one exact piece of text, and run a command. That is the whole toolbox, with no interface, no telemetry, no plugin system, and no automatic retries. The idea in the name is that nothing gets quietly trimmed: most agent tools shorten long files or long command output to fit the model's limits and do it silently, but Uncut sends the entire conversation on every call and never cuts file contents or command output down. If the model provider stops a response halfway, it does not present the half answer as a success; it stops with an error and says so. It works with any provider that speaks the OpenAI-compatible format, including a model running on your own machine through Ollama, and keeps an append-only session log so you can pick up where you left off. The author is plain that it is not a sandbox: the model can run shell commands with your own user permissions, so you run untrusted tasks in a disposable container and review changes yourself.",
+  "usage": "Use the smallest possible coding-agent engine when you want to read the whole thing in an afternoon and trust it because nothing is hidden inside it, paired with a sandbox like devvm for untrusted work."
+ },
+ {
+  "repo": "dsx-ai-factory/nvke",
+  "link": "https://github.com/dsx-ai-factory/nvke",
+  "date": "2026-11-10",
+  "stars": 1075,
+  "description": "NVKE, the NVIDIA Kubernetes Engine, is a management plane for running managed Kubernetes clusters on your own NVIDIA GPU servers, on bare metal in your own building. It lets a platform team offer cloud-style GPU clusters to their own people without renting them from a cloud provider: you ask for a cluster through an API or a command line tool, and NVKE provisions the machines and builds a Kubernetes cluster with its own control plane and its own database, so you can create, scale, and delete clusters on demand. It is still a preview, the interfaces can change, it is not recommended for production workloads yet, and at preview it works with one infrastructure provider, NVIDIA's own Infra Controller. It is open source under the Apache license.",
+  "usage": "Run your own GPU cloud for AI teams instead of renting one, if you are a platform team that owns and operates NVIDIA GPU hardware."
  }
 ]
