@@ -310,5 +310,29 @@
   "stars": 1075,
   "description": "NVKE, the NVIDIA Kubernetes Engine, is a management plane for running managed Kubernetes clusters on your own NVIDIA GPU servers, on bare metal in your own building. It lets a platform team offer cloud-style GPU clusters to their own people without renting them from a cloud provider: you ask for a cluster through an API or a command line tool, and NVKE provisions the machines and builds a Kubernetes cluster with its own control plane and its own database, so you can create, scale, and delete clusters on demand. It is still a preview, the interfaces can change, it is not recommended for production workloads yet, and at preview it works with one infrastructure provider, NVIDIA's own Infra Controller. It is open source under the Apache license.",
   "usage": "Run your own GPU cloud for AI teams instead of renting one, if you are a platform team that owns and operates NVIDIA GPU hardware."
+ },
+ {
+  "repo": "shadcn/improve",
+  "link": "https://github.com/shadcn/improve",
+  "date": "2026-11-11",
+  "stars": 10443,
+  "description": "Improve, from shadcn, the developer behind the shadcn/ui component library, is an agent skill that audits your codebase and writes implementation plans. It splits the two jobs of coding-agent work apart on purpose: you use your most capable, expensive model for the thinking, reading the code, judging what is worth changing, and writing the spec, and hand the typing to cheaper models. You run slash improve in your project and it maps the whole codebase first, learning the stack, conventions, and build and test commands, then fans out across nine categories: correctness, security, performance, test coverage, tech debt, dependencies, developer experience, documentation, and direction. Every finding has to cite real evidence, a file and a line number, and a vetting step re-reads each cited location to drop false positives before you see anything. Findings land in a table ordered by leverage, roughly impact divided by effort, and you pick the ones you want planned. It writes one plan file per finding into a plans folder, can execute a plan with a cheaper model in an isolated work area and review the result like a tech lead, and keeps the backlog tidy with a reconcile command. It is open source under the MIT license.",
+  "usage": "If you run a coding agent daily, run improve first: a good plan makes everything downstream cheaper and safer."
+ },
+ {
+  "repo": "openai/codex-security",
+  "link": "https://github.com/openai/codex-security",
+  "date": "2026-11-11",
+  "stars": 11419,
+  "description": "Codex Security is OpenAI's security scanner for code, available as a command-line tool and a TypeScript SDK. It does the whole loop that traditional scanners leave half done: it finds vulnerabilities in your code, validates that they are real, helps you fix them with generated patches, and verifies the fix actually worked. You install it, sign in, and run a scan, and you get a report with source evidence and coverage limits. It can draft a security policy file for your project, save threat models for later review, and track findings in Linear, Jira, or GitHub. It is built to fit real engineering workflows: a GitHub Action runs a weekly scan for an estimated five dollars per scan, it can scan just the files you changed in a branch or run a deep scan of the whole project, it imports findings from third-party scanners, and it works with other model providers too, including Amazon Bedrock, OpenRouter, Fireworks, and Cheaper Inference.",
+  "usage": "Run a security scan before you ship: a weekly Codex Security scan is cheap enough to run on any project other people depend on."
+ },
+ {
+  "repo": "herdrdev/herdr",
+  "link": "https://github.com/herdrdev/herdr",
+  "date": "2026-11-11",
+  "stars": 50158,
+  "description": "Herdr is a terminal workspace, built in Rust, that gives your coding agents a place to live. The name is the pitch: one agent is a terminal window, ten agents is a herd, and you need something to keep them all in line. Every pane is marked working, blocked, or idle, and when an agent stops and needs an answer, herdr says so, so you never hunt for the stuck one. Closing your laptop does not kill anything: herdr keeps terminals running in a background server when you close the client or lose the connection, and after a restart it restores your saved layout and can resume supported agent sessions. Local work and saved remote machines sit side by side in one window. Agents can also drive herdr itself through its command line and socket interface, spawning panes, prompting each other, and waiting until another agent is genuinely blocked. It runs what you already run, Claude Code, Codex, Cursor, OpenCode, Grok, and the rest, without wrapping or replacing them. It is open source under the Apache 2.0 license.",
+  "usage": "If you are juggling more than a couple of coding agents at once, herdr keeps them all visible and tells you the moment one gets stuck."
  }
 ]

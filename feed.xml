@@ -5,7 +5,37 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 12:59:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:58:56 +0000</lastBuildDate>
+    <item>
+      <title>shadcn/improve</title>
+      <link>https://github.com/shadcn/improve</link>
+      <guid isPermaLink="true">https://github.com/shadcn/improve</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Improve, from shadcn, the developer behind the shadcn/ui component library, is an agent skill that audits your codebase and writes implementation plans. It splits the two jobs of coding-agent work apart on purpose: you use your most capable, expensive model for the thinking, reading the code, judging what is worth changing, and writing the spec, and hand the typing to cheaper models. You run slash improve in your project and it maps the whole codebase first, learning the stack, conventions, and build and test commands, then fans out across nine categories: correctness, security, performance, test coverage, tech debt, dependencies, developer experience, documentation, and direction. Every finding has to cite real evidence, a file and a line number, and a vetting step re-reads each cited location to drop false positives before you see anything. Findings land in a table ordered by leverage, roughly impact divided by effort, and you pick the ones you want planned. It writes one plan file per finding into a plans folder, can execute a plan with a cheaper model in an isolated work area and review the result like a tech lead, and keeps the backlog tidy with a reconcile command. It is open source under the MIT license.</p>
+<p><strong>Stars:</strong> 10443</p>
+<p><strong>Practical use:</strong> If you run a coding agent daily, run improve first: a good plan makes everything downstream cheaper and safer.</p>
+<p><a href="https://github.com/shadcn/improve">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>openai/codex-security</title>
+      <link>https://github.com/openai/codex-security</link>
+      <guid isPermaLink="true">https://github.com/openai/codex-security</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Codex Security is OpenAI&#x27;s security scanner for code, available as a command-line tool and a TypeScript SDK. It does the whole loop that traditional scanners leave half done: it finds vulnerabilities in your code, validates that they are real, helps you fix them with generated patches, and verifies the fix actually worked. You install it, sign in, and run a scan, and you get a report with source evidence and coverage limits. It can draft a security policy file for your project, save threat models for later review, and track findings in Linear, Jira, or GitHub. It is built to fit real engineering workflows: a GitHub Action runs a weekly scan for an estimated five dollars per scan, it can scan just the files you changed in a branch or run a deep scan of the whole project, it imports findings from third-party scanners, and it works with other model providers too, including Amazon Bedrock, OpenRouter, Fireworks, and Cheaper Inference.</p>
+<p><strong>Stars:</strong> 11419</p>
+<p><strong>Practical use:</strong> Run a security scan before you ship: a weekly Codex Security scan is cheap enough to run on any project other people depend on.</p>
+<p><a href="https://github.com/openai/codex-security">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>herdrdev/herdr</title>
+      <link>https://github.com/herdrdev/herdr</link>
+      <guid isPermaLink="true">https://github.com/herdrdev/herdr</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Herdr is a terminal workspace, built in Rust, that gives your coding agents a place to live. The name is the pitch: one agent is a terminal window, ten agents is a herd, and you need something to keep them all in line. Every pane is marked working, blocked, or idle, and when an agent stops and needs an answer, herdr says so, so you never hunt for the stuck one. Closing your laptop does not kill anything: herdr keeps terminals running in a background server when you close the client or lose the connection, and after a restart it restores your saved layout and can resume supported agent sessions. Local work and saved remote machines sit side by side in one window. Agents can also drive herdr itself through its command line and socket interface, spawning panes, prompting each other, and waiting until another agent is genuinely blocked. It runs what you already run, Claude Code, Codex, Cursor, OpenCode, Grok, and the rest, without wrapping or replacing them. It is open source under the Apache 2.0 license.</p>
+<p><strong>Stars:</strong> 50158</p>
+<p><strong>Practical use:</strong> If you are juggling more than a couple of coding agents at once, herdr keeps them all visible and tells you the moment one gets stuck.</p>
+<p><a href="https://github.com/herdrdev/herdr">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>JosssphZhou/poki</title>
       <link>https://github.com/JosssphZhou/poki</link>
