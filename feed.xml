@@ -5,7 +5,47 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:58:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 12:59:20 +0000</lastBuildDate>
+    <item>
+      <title>QwenLM/qwen-code</title>
+      <link>https://github.com/QwenLM/qwen-code</link>
+      <guid isPermaLink="true">https://github.com/QwenLM/qwen-code</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Qwen Code, from Alibaba&#x27;s Qwen team, is an open-source coding assistant that lives in your terminal, a free alternative to Claude Code. You open a terminal in your project and talk to an assistant that can read code, explain it, write new code, run tests, and fix bugs. The 1.0 preview just shipped, bringing in agent features from Alibaba&#x27;s commercial tool Qoder: teams of sub-agents working together, memory across sessions, and skills that teach the agent new tricks. Unlike most coding assistants, it is not tied to one company&#x27;s models: it works with OpenAI, Anthropic, Google Gemini, and Qwen, plus models running on your own machine through Ollama, and you can switch providers mid-session. There is also a desktop app, a web interface, and plugins for VS Code, Zed, and JetBrains, and you can drive it from chat apps like Telegram. On the SWE-bench Verified coding benchmark it scores around 77 percent, in the same league as the best paid tools. It is open source under the Apache license.</p>
+<p><strong>Stars:</strong> 29572</p>
+<p><strong>Practical use:</strong> Try it if you write code and want a top-tier coding agent without being locked into one company&#x27;s subscription.</p>
+<p><a href="https://github.com/QwenLM/qwen-code">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ashhart/TensorFold</title>
+      <link>https://github.com/ashhart/TensorFold</link>
+      <guid isPermaLink="true">https://github.com/ashhart/TensorFold</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>TensorFold is a small, fast engine for running language models on your own hardware, written in Zig and shipped as a single binary. It runs on Apple Silicon Macs and NVIDIA graphics cards, with no Python installation and no heavy setup: download one file, point it at a model, and you are chatting with a model running entirely on your own computer, so your data never leaves your machine. The quick start is genuinely quick: on a Mac you install it with Homebrew, pull down a small model, and start the server, and any app that speaks the standard chat format can talk to it. It also has an experiment called Living Weights, where you tell a running model something new and it stores that fact inside the model itself. Created in June 2026 by a single developer, it already has 61 releases, a desktop app in beta, and an enterprise version called Starlight.</p>
+<p><strong>Stars:</strong> 1835</p>
+<p><strong>Practical use:</strong> Run a language model at home on a Mac or gaming graphics card without becoming a systems engineer first.</p>
+<p><a href="https://github.com/ashhart/TensorFold">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Alishahryar1/free-claude-code</title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <guid isPermaLink="true">https://github.com/Alishahryar1/free-claude-code</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Free Claude Code is a switchboard that lets you run Claude Code, Codex, OpenCode, and nine other coding assistants for free by routing them to free model providers. Normally Claude Code talks to Anthropic&#x27;s servers and you pay Anthropic; this sits in the middle and forwards the work to whichever model provider you picked, from 61 listed sources, including free tiers the project says add up to more than 1.3 billion free tokens a month. It also handles the reliability work: automatic retries, automatic fallback to a backup source, and a token-saving feature that claims to cut usage by up to 90 percent. It works in the terminal, desktop apps, your editor, your phone through Discord or Telegram, and now a browser interface. The honest warning: free tiers come and go, and any company can close its free door; the safety net is the size of the catalog, so there is usually another open door when one closes.</p>
+<p><strong>Stars:</strong> 68889</p>
+<p><strong>Practical use:</strong> Use the premium coding assistants without the premium bill, and keep an eye on which free providers stay open.</p>
+<p><a href="https://github.com/Alishahryar1/free-claude-code">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ggml-org/llama.cpp</title>
+      <link>https://github.com/ggml-org/llama.cpp</link>
+      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>llama.cpp is the foundational open-source engine that made running language models on ordinary computers possible. Written in plain C and C++ with no dependencies, it runs on just about everything: Apple Silicon, Windows, Linux, phones, even a Raspberry Pi. It dates back to March 2023, and it was the first tool that let regular people download a model and chat with it on a laptop; the whole local AI movement grew out of it. It is still moving: the readme now shows a built-in web interface, a proper server mode, and support for vision models that can look at images as well as text, and you can download a model straight from Hugging Face and start chatting in one command. With twelve thousand commits and eight thousand releases, it is still the reference every other local engine gets compared to, and it is even one of the local providers Free Claude Code can route to.</p>
+<p><strong>Stars:</strong> 134271</p>
+<p><strong>Practical use:</strong> Start here if you want to run models locally: it is the engine the rest of the local AI world is built on.</p>
+<p><a href="https://github.com/ggml-org/llama.cpp">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>shadcn/improve</title>
       <link>https://github.com/shadcn/improve</link>

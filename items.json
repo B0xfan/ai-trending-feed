@@ -334,5 +334,37 @@
   "stars": 50158,
   "description": "Herdr is a terminal workspace, built in Rust, that gives your coding agents a place to live. The name is the pitch: one agent is a terminal window, ten agents is a herd, and you need something to keep them all in line. Every pane is marked working, blocked, or idle, and when an agent stops and needs an answer, herdr says so, so you never hunt for the stuck one. Closing your laptop does not kill anything: herdr keeps terminals running in a background server when you close the client or lose the connection, and after a restart it restores your saved layout and can resume supported agent sessions. Local work and saved remote machines sit side by side in one window. Agents can also drive herdr itself through its command line and socket interface, spawning panes, prompting each other, and waiting until another agent is genuinely blocked. It runs what you already run, Claude Code, Codex, Cursor, OpenCode, Grok, and the rest, without wrapping or replacing them. It is open source under the Apache 2.0 license.",
   "usage": "If you are juggling more than a couple of coding agents at once, herdr keeps them all visible and tells you the moment one gets stuck."
+ },
+ {
+  "repo": "QwenLM/qwen-code",
+  "link": "https://github.com/QwenLM/qwen-code",
+  "date": "2026-11-12",
+  "stars": 29572,
+  "description": "Qwen Code, from Alibaba's Qwen team, is an open-source coding assistant that lives in your terminal, a free alternative to Claude Code. You open a terminal in your project and talk to an assistant that can read code, explain it, write new code, run tests, and fix bugs. The 1.0 preview just shipped, bringing in agent features from Alibaba's commercial tool Qoder: teams of sub-agents working together, memory across sessions, and skills that teach the agent new tricks. Unlike most coding assistants, it is not tied to one company's models: it works with OpenAI, Anthropic, Google Gemini, and Qwen, plus models running on your own machine through Ollama, and you can switch providers mid-session. There is also a desktop app, a web interface, and plugins for VS Code, Zed, and JetBrains, and you can drive it from chat apps like Telegram. On the SWE-bench Verified coding benchmark it scores around 77 percent, in the same league as the best paid tools. It is open source under the Apache license.",
+  "usage": "Try it if you write code and want a top-tier coding agent without being locked into one company's subscription."
+ },
+ {
+  "repo": "ashhart/TensorFold",
+  "link": "https://github.com/ashhart/TensorFold",
+  "date": "2026-11-12",
+  "stars": 1835,
+  "description": "TensorFold is a small, fast engine for running language models on your own hardware, written in Zig and shipped as a single binary. It runs on Apple Silicon Macs and NVIDIA graphics cards, with no Python installation and no heavy setup: download one file, point it at a model, and you are chatting with a model running entirely on your own computer, so your data never leaves your machine. The quick start is genuinely quick: on a Mac you install it with Homebrew, pull down a small model, and start the server, and any app that speaks the standard chat format can talk to it. It also has an experiment called Living Weights, where you tell a running model something new and it stores that fact inside the model itself. Created in June 2026 by a single developer, it already has 61 releases, a desktop app in beta, and an enterprise version called Starlight.",
+  "usage": "Run a language model at home on a Mac or gaming graphics card without becoming a systems engineer first."
+ },
+ {
+  "repo": "Alishahryar1/free-claude-code",
+  "link": "https://github.com/Alishahryar1/free-claude-code",
+  "date": "2026-11-12",
+  "stars": 68889,
+  "description": "Free Claude Code is a switchboard that lets you run Claude Code, Codex, OpenCode, and nine other coding assistants for free by routing them to free model providers. Normally Claude Code talks to Anthropic's servers and you pay Anthropic; this sits in the middle and forwards the work to whichever model provider you picked, from 61 listed sources, including free tiers the project says add up to more than 1.3 billion free tokens a month. It also handles the reliability work: automatic retries, automatic fallback to a backup source, and a token-saving feature that claims to cut usage by up to 90 percent. It works in the terminal, desktop apps, your editor, your phone through Discord or Telegram, and now a browser interface. The honest warning: free tiers come and go, and any company can close its free door; the safety net is the size of the catalog, so there is usually another open door when one closes.",
+  "usage": "Use the premium coding assistants without the premium bill, and keep an eye on which free providers stay open."
+ },
+ {
+  "repo": "ggml-org/llama.cpp",
+  "link": "https://github.com/ggml-org/llama.cpp",
+  "date": "2026-11-12",
+  "stars": 134271,
+  "description": "llama.cpp is the foundational open-source engine that made running language models on ordinary computers possible. Written in plain C and C++ with no dependencies, it runs on just about everything: Apple Silicon, Windows, Linux, phones, even a Raspberry Pi. It dates back to March 2023, and it was the first tool that let regular people download a model and chat with it on a laptop; the whole local AI movement grew out of it. It is still moving: the readme now shows a built-in web interface, a proper server mode, and support for vision models that can look at images as well as text, and you can download a model straight from Hugging Face and start chatting in one command. With twelve thousand commits and eight thousand releases, it is still the reference every other local engine gets compared to, and it is even one of the local providers Free Claude Code can route to.",
+  "usage": "Start here if you want to run models locally: it is the engine the rest of the local AI world is built on."
  }
 ]
