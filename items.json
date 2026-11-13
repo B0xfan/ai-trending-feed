@@ -366,5 +366,45 @@
   "stars": 134271,
   "description": "llama.cpp is the foundational open-source engine that made running language models on ordinary computers possible. Written in plain C and C++ with no dependencies, it runs on just about everything: Apple Silicon, Windows, Linux, phones, even a Raspberry Pi. It dates back to March 2023, and it was the first tool that let regular people download a model and chat with it on a laptop; the whole local AI movement grew out of it. It is still moving: the readme now shows a built-in web interface, a proper server mode, and support for vision models that can look at images as well as text, and you can download a model straight from Hugging Face and start chatting in one command. With twelve thousand commits and eight thousand releases, it is still the reference every other local engine gets compared to, and it is even one of the local providers Free Claude Code can route to.",
   "usage": "Start here if you want to run models locally: it is the engine the rest of the local AI world is built on."
+ },
+ {
+  "repo": "GoogleChrome/modern-web-guidance-src",
+  "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+  "date": "2026-11-13",
+  "stars": 4192,
+  "description": "Modern Web Guidance, from the Google Chrome team, is a set of skills, little instruction packs, that teach your coding agent the latest web best practices. The problem it solves is that an agent has read the entire internet, including ten years of old tutorials, so when you ask it to build a page it often reaches for the old way of doing things, like big piles of JavaScript to solve problems the browser can now handle on its own. This project covers about two hundred fifty modern web features, things like smooth page transitions, built-in pop-up menus, and smarter layouts, and feeds your agent short, focused guidance on each one right when it needs it. Chrome, Edge, Firefox, and the MDN documentation team all steward it together, and it runs tests to prove the guidance actually improves what the agent produces, trimming out anything the models already know so it does not waste their attention.",
+  "usage": "Give your coding agent current web knowledge so what it builds uses modern browser features instead of dated patterns."
+ },
+ {
+  "repo": "backnotprop/plannotator",
+  "link": "https://github.com/backnotprop/plannotator",
+  "date": "2026-11-13",
+  "stars": 10267,
+  "description": "Plannotator is a local, browser-based review surface for AI coding agents, the review step that has been missing from agent work. When your agent writes a plan or a spec or finishes a chunk of code, Plannotator opens it up for you: highlight a paragraph, leave a comment in the margin, review the code changes side by side, and send all your feedback straight back to the agent with one click. The new headline feature is the Inbox, one window where all your agents leave their questions, decisions, and drafts while they keep working, so you answer when you are ready and nothing holds an agent session open waiting on you. It works with Claude Code, Codex, Copilot, Gemini, OpenCode, and others, and everything stays on your own machine by default, with no tracking.",
+  "usage": "Review what your coding agents propose and send feedback back in one click, instead of rubber-stamping a wall of text."
+ },
+ {
+  "repo": "tradermonty/claude-trading-skills",
+  "link": "https://github.com/tradermonty/claude-trading-skills",
+  "date": "2026-11-13",
+  "stars": 3892,
+  "description": "Claude Trading Skills is a collection of skills that turns Claude into a structured trading assistant for individual equity investors and traders. It is upfront about what it is not: not a signal service, not a promise of profits, and it does not place trades for you. It covers market analysis, technical charting, economic calendars, and screeners, plus the unglamorous work that actually matters, like sizing your positions, keeping a journal of your trades, and reviewing what went wrong after you close a position. The basic path needs no paid market data subscription: a fifteen-minute daily market check runs on public data, with a weekly portfolio review and a monthly performance review. The idea is discipline, not automation; the human still makes every buy and sell decision.",
+  "usage": "Use Claude as a disciplined trading workflow helper for analysis, journaling, and review, while you keep every buy and sell decision yourself."
+ },
+ {
+  "repo": "ChromeDevTools/chrome-devtools-mcp",
+  "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "date": "2026-11-13",
+  "stars": 55238,
+  "description": "Chrome DevTools for coding agents, from the Chrome DevTools team itself, hands the browser's built-in developer toolkit to your coding agent. DevTools is the toolkit inside Chrome that web developers use to inspect a page, check why something is slow, and see what went wrong. With this project, your agent can open a real Chrome window, click around, take screenshots, read the error messages in the console, and record a performance trace to figure out why a page feels sluggish, instead of guessing why a button does not work. It works as a server that plugs into coding assistants like Claude, Cursor, and Copilot, and also comes with a command-line tool, plus little skill packs that teach your agent how to debug accessibility problems, memory leaks, and slow page loads. One honest caveat from the project itself: your agent can see and change anything in that browser window, so do not use it with anything sensitive open.",
+  "usage": "Let your coding agent check its own web work in a live browser, so it stops building blind and can debug what it actually made."
+ },
+ {
+  "repo": "lobehub/lobehub",
+  "link": "https://github.com/lobehub/lobehub",
+  "date": "2026-11-13",
+  "stars": 85265,
+  "description": "LobeHub, around since 2023, is surging again because it has reinvented itself around a simple idea: super-agents on your team. You add an AI agent to the team chat you already use, whether that is Discord, Slack, or Telegram. On day one it reads up on the conversation history and says hello; by week one it is picking up feature requests nobody assigned to it, doing the work, and reporting back in the thread for a human to accept; by month three, the project says, it has learned enough from your corrections that it rarely misses. You can have several of them, one for design, one for releases, one for documentation, each with its own expertise. There is a marketplace of ready-made agents, servers, and skills to add, you can self-host the whole thing with Docker, and it connects to outside agents like Claude Code and Codex, so it is less a walled garden and more a front door for all the agents you already use.",
+  "usage": "Add an AI teammate to your team chat that finds its own work and gets better every week, with a human accepting the result."
  }
 ]

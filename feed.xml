@@ -5,7 +5,57 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:59:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:59:19 +0000</lastBuildDate>
+    <item>
+      <title>GoogleChrome/modern-web-guidance-src</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
+      <guid isPermaLink="true">https://github.com/GoogleChrome/modern-web-guidance-src</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Modern Web Guidance, from the Google Chrome team, is a set of skills, little instruction packs, that teach your coding agent the latest web best practices. The problem it solves is that an agent has read the entire internet, including ten years of old tutorials, so when you ask it to build a page it often reaches for the old way of doing things, like big piles of JavaScript to solve problems the browser can now handle on its own. This project covers about two hundred fifty modern web features, things like smooth page transitions, built-in pop-up menus, and smarter layouts, and feeds your agent short, focused guidance on each one right when it needs it. Chrome, Edge, Firefox, and the MDN documentation team all steward it together, and it runs tests to prove the guidance actually improves what the agent produces, trimming out anything the models already know so it does not waste their attention.</p>
+<p><strong>Stars:</strong> 4192</p>
+<p><strong>Practical use:</strong> Give your coding agent current web knowledge so what it builds uses modern browser features instead of dated patterns.</p>
+<p><a href="https://github.com/GoogleChrome/modern-web-guidance-src">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>backnotprop/plannotator</title>
+      <link>https://github.com/backnotprop/plannotator</link>
+      <guid isPermaLink="true">https://github.com/backnotprop/plannotator</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Plannotator is a local, browser-based review surface for AI coding agents, the review step that has been missing from agent work. When your agent writes a plan or a spec or finishes a chunk of code, Plannotator opens it up for you: highlight a paragraph, leave a comment in the margin, review the code changes side by side, and send all your feedback straight back to the agent with one click. The new headline feature is the Inbox, one window where all your agents leave their questions, decisions, and drafts while they keep working, so you answer when you are ready and nothing holds an agent session open waiting on you. It works with Claude Code, Codex, Copilot, Gemini, OpenCode, and others, and everything stays on your own machine by default, with no tracking.</p>
+<p><strong>Stars:</strong> 10267</p>
+<p><strong>Practical use:</strong> Review what your coding agents propose and send feedback back in one click, instead of rubber-stamping a wall of text.</p>
+<p><a href="https://github.com/backnotprop/plannotator">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>tradermonty/claude-trading-skills</title>
+      <link>https://github.com/tradermonty/claude-trading-skills</link>
+      <guid isPermaLink="true">https://github.com/tradermonty/claude-trading-skills</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Claude Trading Skills is a collection of skills that turns Claude into a structured trading assistant for individual equity investors and traders. It is upfront about what it is not: not a signal service, not a promise of profits, and it does not place trades for you. It covers market analysis, technical charting, economic calendars, and screeners, plus the unglamorous work that actually matters, like sizing your positions, keeping a journal of your trades, and reviewing what went wrong after you close a position. The basic path needs no paid market data subscription: a fifteen-minute daily market check runs on public data, with a weekly portfolio review and a monthly performance review. The idea is discipline, not automation; the human still makes every buy and sell decision.</p>
+<p><strong>Stars:</strong> 3892</p>
+<p><strong>Practical use:</strong> Use Claude as a disciplined trading workflow helper for analysis, journaling, and review, while you keep every buy and sell decision yourself.</p>
+<p><a href="https://github.com/tradermonty/claude-trading-skills">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ChromeDevTools/chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <guid isPermaLink="true">https://github.com/ChromeDevTools/chrome-devtools-mcp</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Chrome DevTools for coding agents, from the Chrome DevTools team itself, hands the browser&#x27;s built-in developer toolkit to your coding agent. DevTools is the toolkit inside Chrome that web developers use to inspect a page, check why something is slow, and see what went wrong. With this project, your agent can open a real Chrome window, click around, take screenshots, read the error messages in the console, and record a performance trace to figure out why a page feels sluggish, instead of guessing why a button does not work. It works as a server that plugs into coding assistants like Claude, Cursor, and Copilot, and also comes with a command-line tool, plus little skill packs that teach your agent how to debug accessibility problems, memory leaks, and slow page loads. One honest caveat from the project itself: your agent can see and change anything in that browser window, so do not use it with anything sensitive open.</p>
+<p><strong>Stars:</strong> 55238</p>
+<p><strong>Practical use:</strong> Let your coding agent check its own web work in a live browser, so it stops building blind and can debug what it actually made.</p>
+<p><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>lobehub/lobehub</title>
+      <link>https://github.com/lobehub/lobehub</link>
+      <guid isPermaLink="true">https://github.com/lobehub/lobehub</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>LobeHub, around since 2023, is surging again because it has reinvented itself around a simple idea: super-agents on your team. You add an AI agent to the team chat you already use, whether that is Discord, Slack, or Telegram. On day one it reads up on the conversation history and says hello; by week one it is picking up feature requests nobody assigned to it, doing the work, and reporting back in the thread for a human to accept; by month three, the project says, it has learned enough from your corrections that it rarely misses. You can have several of them, one for design, one for releases, one for documentation, each with its own expertise. There is a marketplace of ready-made agents, servers, and skills to add, you can self-host the whole thing with Docker, and it connects to outside agents like Claude Code and Codex, so it is less a walled garden and more a front door for all the agents you already use.</p>
+<p><strong>Stars:</strong> 85265</p>
+<p><strong>Practical use:</strong> Add an AI teammate to your team chat that finds its own work and gets better every week, with a human accepting the result.</p>
+<p><a href="https://github.com/lobehub/lobehub">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>QwenLM/qwen-code</title>
       <link>https://github.com/QwenLM/qwen-code</link>
