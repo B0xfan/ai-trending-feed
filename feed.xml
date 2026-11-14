@@ -5,7 +5,27 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:59:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:59:00 +0000</lastBuildDate>
+    <item>
+      <title>google/elephant-goldfish-model</title>
+      <link>https://github.com/google/elephant-goldfish-model</link>
+      <guid isPermaLink="true">https://github.com/google/elephant-goldfish-model</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Elephant Goldfish Model, from Google, is an open-source plugin for designing and reviewing software with AI agents, and the name tells you the whole idea. The elephant holds your entire project in mind, your requirements and earlier decisions, and drafts the plan, the specification for whatever you want to build. Then the goldfish reviewers take over, and a goldfish famously has no memory: each reviewer reads the draft with completely fresh eyes, with no knowledge of the earlier conversation, and its only job is to find what is missing, the blind spots, the unclear requirements, and the risks everyone in the room stopped noticing. You, the human, make the trade-offs and approve the plan before anything gets built. It also has a drift report that compares your written plans against the code you actually shipped and shows where they no longer match, plus a sixty-second review mode that checks an existing design document or pull request plan against the live code. It installs as a plugin for Claude Code, Codex, Gemini, ChatGPT, Copilot, Cursor, and others, is built on an idea from an essay by Dave Rensin at Google, and is Apache licensed and free. The project is honest that it is not an officially supported Google product and a review does not replace tests or human judgment.</p>
+<p><strong>Stars:</strong> 18852</p>
+<p><strong>Practical use:</strong> If you use a coding agent to plan anything bigger than a weekend project, install this first: let the elephant draft the plan and the goldfish catch the holes before you write a single line of code.</p>
+<p><a href="https://github.com/google/elephant-goldfish-model">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Vincentwei1021/video-shotcraft</title>
+      <link>https://github.com/Vincentwei1021/video-shotcraft</link>
+      <guid isPermaLink="true">https://github.com/Vincentwei1021/video-shotcraft</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Video Shotcraft is a skill for Claude Code and Codex that turns a product into a polished promo film. You ask your coding agent to make a promo, and it captures screenshots of your real product pages, picks shots from a library of 124 motion recipe cards, storyboards the film, animates it, cuts it to the beat of the music, adds sound design, checks every frame, and hands you a finished high-definition video you can keep editing. The recipe cards are named camera moves, like text as mask, where your product shows through giant letters, or exploded view, where a page tilts in three dimensions and its parts fly apart. The key detail is that it is not a video generator at all: every frame is drawn by code from your own screenshots and your own words, using Remotion, so the result is sharp, on brand, and fully editable, showing your real product instead of an invented picture of it. When the film is done, a browser-based editor called the Motion Workbench lets you change words, fonts, and colors, move clips, trim them, and swap in different shots, and it even exports an editable draft for JianYing, the Chinese version of CapCut. There is also a sibling project for narration videos and optional social publishing to TikTok, Instagram, YouTube, and LinkedIn, with a dry run and your confirmation before anything goes live. It is Apache licensed with documentation in five languages.</p>
+<p><strong>Stars:</strong> 19366</p>
+<p><strong>Practical use:</strong> If you build a product and need a launch film, a demo, or a social clip without a video team or budget, let your coding agent make one from your real product, and edit every frame afterward.</p>
+<p><a href="https://github.com/Vincentwei1021/video-shotcraft">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>GoogleChrome/modern-web-guidance-src</title>
       <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
