@@ -422,5 +422,29 @@
   "stars": 19366,
   "description": "Video Shotcraft is a skill for Claude Code and Codex that turns a product into a polished promo film. You ask your coding agent to make a promo, and it captures screenshots of your real product pages, picks shots from a library of 124 motion recipe cards, storyboards the film, animates it, cuts it to the beat of the music, adds sound design, checks every frame, and hands you a finished high-definition video you can keep editing. The recipe cards are named camera moves, like text as mask, where your product shows through giant letters, or exploded view, where a page tilts in three dimensions and its parts fly apart. The key detail is that it is not a video generator at all: every frame is drawn by code from your own screenshots and your own words, using Remotion, so the result is sharp, on brand, and fully editable, showing your real product instead of an invented picture of it. When the film is done, a browser-based editor called the Motion Workbench lets you change words, fonts, and colors, move clips, trim them, and swap in different shots, and it even exports an editable draft for JianYing, the Chinese version of CapCut. There is also a sibling project for narration videos and optional social publishing to TikTok, Instagram, YouTube, and LinkedIn, with a dry run and your confirmation before anything goes live. It is Apache licensed with documentation in five languages.",
   "usage": "If you build a product and need a launch film, a demo, or a social clip without a video team or budget, let your coding agent make one from your real product, and edit every frame afterward."
+ },
+ {
+  "repo": "ag-ui-protocol/ag-ui",
+  "link": "https://github.com/ag-ui-protocol/ag-ui",
+  "date": "2026-11-15",
+  "stars": 17563,
+  "description": "AG-UI is an open protocol that plugs an AI agent into the app a person is already using, instead of keeping the agent in a separate chat window. It standardizes how the agent streams its work into the interface: live chat, shared state between the agent and the app, the agent building parts of the interface on the fly, and human approval steps right where you are looking. The team behind it frames it as the third protocol next to MCP, which gives agents tools, and A2A, which lets agents talk to each other. It is lightweight and event-based, with about sixteen standard kinds of update, and it already has support from LangChain, CrewAI, Microsoft's Agent Framework, Google's agent toolkit, Mastra, LlamaIndex, Pydantic AI, and the Claude Agent SDK, with software kits in Kotlin, Go, Dart, Java, Rust, Ruby, .NET, and C++. It is open source under the MIT license.",
+  "usage": "If you build apps with agents in them, use AG-UI so any agent can show its work inside your app instead of a separate chat box."
+ },
+ {
+  "repo": "Tencent/LoopForge",
+  "link": "https://github.com/Tencent/LoopForge",
+  "date": "2026-11-15",
+  "stars": 1169,
+  "description": "LoopForge, from Tencent, is a self-hosted workspace where a team ships software with coding agents, running on your own servers rather than somebody else's cloud. The problem it solves is repeatability: ask a coding agent to fix a bug and the result depends on that run, which might skip the plan, forget the tests, or stop halfway. LoopForge answers with SOPs, standard operating procedures, repeatable workflows made of steps: some steps are agents, some are plain scripts that run a build or a test, and some are human gates where the run pauses until a person checks the work and approves it or sends it back. It can drive ten different coding agent tools as workers, including CodeBuddy, Codex, Claude Code, OpenCode, Cursor, and Kimi Code, and it comes with starter workflows for building a backend, building a frontend, and fixing a bug. Every change links back to the requirement it came from, and you can pause a run, steer it mid-reply, take over from the agent, or rerun from any step that failed.",
+  "usage": "Run a small team that ships software with agents and wants the speed without giving up the review discipline that keeps software shippable."
+ },
+ {
+  "repo": "dream-num/univer",
+  "link": "https://github.com/dream-num/univer",
+  "date": "2026-11-15",
+  "stars": 25239,
+  "description": "Univer is an open-source Office SDK for embedding spreadsheets, documents, and presentations inside your own product, built so both people and AI agents can edit, calculate, and collaborate on the same files. Instead of sending a user off to a separate office app, the spreadsheet lives inside your app, with editing, formulas, collaboration, and file handling built in, and an AI SDK connects those office tools to agents and workflows. The example in their docs makes it click: a quotation table where an agent changes a quantity from two seats to four and the formula recalculates the total automatically. The core engine, formula engine, rendering, and editing for sheets and docs are Apache licensed, and the quick start is a few lines of setup to get a spreadsheet editor running on a web page. The company sells extra pieces on top, like the server side for real-time collaboration and some AI extensions, but the open core is enough to embed a real spreadsheet or document today.",
+  "usage": "Embed a real spreadsheet or document in your product so people and AI agents can work on the same file, with undo history and live recalculation."
  }
 ]

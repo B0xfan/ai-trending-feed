@@ -5,7 +5,37 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 12:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:59:13 +0000</lastBuildDate>
+    <item>
+      <title>ag-ui-protocol/ag-ui</title>
+      <link>https://github.com/ag-ui-protocol/ag-ui</link>
+      <guid isPermaLink="true">https://github.com/ag-ui-protocol/ag-ui</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>AG-UI is an open protocol that plugs an AI agent into the app a person is already using, instead of keeping the agent in a separate chat window. It standardizes how the agent streams its work into the interface: live chat, shared state between the agent and the app, the agent building parts of the interface on the fly, and human approval steps right where you are looking. The team behind it frames it as the third protocol next to MCP, which gives agents tools, and A2A, which lets agents talk to each other. It is lightweight and event-based, with about sixteen standard kinds of update, and it already has support from LangChain, CrewAI, Microsoft&#x27;s Agent Framework, Google&#x27;s agent toolkit, Mastra, LlamaIndex, Pydantic AI, and the Claude Agent SDK, with software kits in Kotlin, Go, Dart, Java, Rust, Ruby, .NET, and C++. It is open source under the MIT license.</p>
+<p><strong>Stars:</strong> 17563</p>
+<p><strong>Practical use:</strong> If you build apps with agents in them, use AG-UI so any agent can show its work inside your app instead of a separate chat box.</p>
+<p><a href="https://github.com/ag-ui-protocol/ag-ui">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Tencent/LoopForge</title>
+      <link>https://github.com/Tencent/LoopForge</link>
+      <guid isPermaLink="true">https://github.com/Tencent/LoopForge</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>LoopForge, from Tencent, is a self-hosted workspace where a team ships software with coding agents, running on your own servers rather than somebody else&#x27;s cloud. The problem it solves is repeatability: ask a coding agent to fix a bug and the result depends on that run, which might skip the plan, forget the tests, or stop halfway. LoopForge answers with SOPs, standard operating procedures, repeatable workflows made of steps: some steps are agents, some are plain scripts that run a build or a test, and some are human gates where the run pauses until a person checks the work and approves it or sends it back. It can drive ten different coding agent tools as workers, including CodeBuddy, Codex, Claude Code, OpenCode, Cursor, and Kimi Code, and it comes with starter workflows for building a backend, building a frontend, and fixing a bug. Every change links back to the requirement it came from, and you can pause a run, steer it mid-reply, take over from the agent, or rerun from any step that failed.</p>
+<p><strong>Stars:</strong> 1169</p>
+<p><strong>Practical use:</strong> Run a small team that ships software with agents and wants the speed without giving up the review discipline that keeps software shippable.</p>
+<p><a href="https://github.com/Tencent/LoopForge">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>dream-num/univer</title>
+      <link>https://github.com/dream-num/univer</link>
+      <guid isPermaLink="true">https://github.com/dream-num/univer</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Univer is an open-source Office SDK for embedding spreadsheets, documents, and presentations inside your own product, built so both people and AI agents can edit, calculate, and collaborate on the same files. Instead of sending a user off to a separate office app, the spreadsheet lives inside your app, with editing, formulas, collaboration, and file handling built in, and an AI SDK connects those office tools to agents and workflows. The example in their docs makes it click: a quotation table where an agent changes a quantity from two seats to four and the formula recalculates the total automatically. The core engine, formula engine, rendering, and editing for sheets and docs are Apache licensed, and the quick start is a few lines of setup to get a spreadsheet editor running on a web page. The company sells extra pieces on top, like the server side for real-time collaboration and some AI extensions, but the open core is enough to embed a real spreadsheet or document today.</p>
+<p><strong>Stars:</strong> 25239</p>
+<p><strong>Practical use:</strong> Embed a real spreadsheet or document in your product so people and AI agents can work on the same file, with undo history and live recalculation.</p>
+<p><a href="https://github.com/dream-num/univer">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>google/elephant-goldfish-model</title>
       <link>https://github.com/google/elephant-goldfish-model</link>
