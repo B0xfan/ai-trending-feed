@@ -5,7 +5,47 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:59:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:59:17 +0000</lastBuildDate>
+    <item>
+      <title>google-labs-code/stitch-skills</title>
+      <link>https://github.com/google-labs-code/stitch-skills</link>
+      <guid isPermaLink="true">https://github.com/google-labs-code/stitch-skills</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Stitch Skills, from Google Labs, is a library of agent skills for Google Stitch, Google&#x27;s tool for designing app screens with AI. It teaches coding agents like Claude Code, Cursor, Gemini CLI, and Codex how to design and build app screens: generate a design from a plain-language prompt or a picture, edit screens you already have, and convert designs into real React or React Native components. One standout, Stitch Loop, generates a complete multi-page website from a single prompt and then checks its own work, and the code-to-design skill pulls front-end code you already wrote into Stitch as an editable design so you do not start over. A utilities group also polishes vague prompts and enforces what the project calls premium, anti-generic design standards, basically a taste checker for your agent. It connects to Stitch through an MCP server and is open source under the Apache license, with a one-command install.</p>
+<p><strong>Stars:</strong> 9580</p>
+<p><strong>Practical use:</strong> Use it if you build apps with a coding agent and the result works but looks like every other AI-built app; it gives your agent design taste.</p>
+<p><a href="https://github.com/google-labs-code/stitch-skills">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>ggml-org/ggml</title>
+      <link>https://github.com/ggml-org/ggml</link>
+      <guid isPermaLink="true">https://github.com/ggml-org/ggml</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>ggml is the plain-C tensor library for machine learning behind llama.cpp, the most popular way to run open language models locally. A tensor library is the math engine: when a language model thinks, it is doing enormous amounts of number crunching, and ggml does that crunching as fast as possible on whatever machine you have. It runs on ordinary laptops, phones, and even in a web browser, needs no heavy dependencies, and can squeeze big models down into smaller sizes, a technique called quantization, so a model that once needed a data center can now run on a laptop in your kitchen. It has been around since 2022 and is maintained by the same community as llama.cpp, and it keeps trending because every new open model and every new agent that wants to run on your own machine instead of a server leans on this little engine.</p>
+<p><strong>Stars:</strong> 16067</p>
+<p><strong>Practical use:</strong> Start here if you want to understand or run language models on your own hardware; it is the quiet infrastructure the local AI wave is built on.</p>
+<p><a href="https://github.com/ggml-org/ggml">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>elementalsouls/Claude-BugHunter</title>
+      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
+      <guid isPermaLink="true">https://github.com/elementalsouls/Claude-BugHunter</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Claude BugHunter is a bundle of 82 skills that turns Claude Code into a security researcher. It was built by bug bounty hunter Sachin Sharma, who studied 681 real disclosed security reports from HackerOne and distilled them into patterns the agent can follow. Point Claude at a website, describe what you are testing in plain English, and the right skill loads automatically: it maps subdomains and logins, hunts for classic weaknesses like cross-site scripting, SQL injection, and broken logins across 24 vulnerability classes, validates what it finds, and writes up a proper report of the kind you would submit to a bug bounty program. It is deliberately scoped to the outside of a system, the parts anyone on the internet can reach, leaving out internal network attacks, and before submitting anything it runs a seven-question gate checking the target is in scope and you have permission to test it. It works across five agent tools, has 15 slash commands for common jobs like recon and reporting, and is for authorized security testing only.</p>
+<p><strong>Stars:</strong> 7078</p>
+<p><strong>Practical use:</strong> For security teams and bug bounty hunters: let an agent think like an attacker against your own systems before a real attacker does, authorized targets only.</p>
+<p><a href="https://github.com/elementalsouls/Claude-BugHunter">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>NVIDIA/SkillEvaluator</title>
+      <link>https://github.com/NVIDIA/SkillEvaluator</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/SkillEvaluator</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>SkillEvaluator, from NVIDIA, is a three-tier framework for grading AI agent skills, answering the question of how you know whether a skill is any good now that thousands of them exist. Tier one checks whether a skill is safe and well-formed, running security scanners for secrets and dangerous instructions and verifying it follows the standard format, and it can run with no AI model at all for a plain deterministic score. Tier two compares skills semantically, reading the meaning rather than just the words, to flag overlapping or duplicated guidance. Tier three is the live test: it runs an agent with the skill and without it in a sealed sandbox and measures whether the skill actually makes the agent better at the job. It is part of NVIDIA&#x27;s Verified Skills pipeline, has a published research paper behind it, and is open source under the Apache license. Their example skill scored 88.8 out of 100.</p>
+<p><strong>Stars:</strong> 2237</p>
+<p><strong>Practical use:</strong> Run it on the skills your team writes before shipping them, so you know honestly whether a skill helps the agent or just takes up space.</p>
+<p><a href="https://github.com/NVIDIA/SkillEvaluator">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>ag-ui-protocol/ag-ui</title>
       <link>https://github.com/ag-ui-protocol/ag-ui</link>
