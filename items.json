@@ -478,5 +478,29 @@
   "stars": 2237,
   "description": "SkillEvaluator, from NVIDIA, is a three-tier framework for grading AI agent skills, answering the question of how you know whether a skill is any good now that thousands of them exist. Tier one checks whether a skill is safe and well-formed, running security scanners for secrets and dangerous instructions and verifying it follows the standard format, and it can run with no AI model at all for a plain deterministic score. Tier two compares skills semantically, reading the meaning rather than just the words, to flag overlapping or duplicated guidance. Tier three is the live test: it runs an agent with the skill and without it in a sealed sandbox and measures whether the skill actually makes the agent better at the job. It is part of NVIDIA's Verified Skills pipeline, has a published research paper behind it, and is open source under the Apache license. Their example skill scored 88.8 out of 100.",
   "usage": "Run it on the skills your team writes before shipping them, so you know honestly whether a skill helps the agent or just takes up space."
+ },
+ {
+  "repo": "mvanhorn/last30days-skill",
+  "link": "https://github.com/mvanhorn/last30days-skill",
+  "date": "2026-11-17",
+  "stars": 68591,
+  "description": "Last30days is a skill for AI coding agents that researches a person, company, or topic by searching what real people are saying and doing right now, instead of what editors and search engines publish. It sweeps Reddit threads and upvotes, posts on X, YouTube transcripts, TikTok clips, Hacker News debates, and even Polymarket, the betting market where people put real money behind their predictions, then pulls it all together into one grounded summary. Basic sources like Reddit and Hacker News work with no setup; X, TikTok, and YouTube need your own accounts and keys. It installs as a skill for Claude Code, Codex, Cursor, Gemini CLI, and more than fifty other agent hosts, and is open source under the MIT license.",
+  "usage": "Research a person before a meeting or a company before a pitch and get what they are actually doing this month, not a stale profile from two years ago."
+ },
+ {
+  "repo": "jingyaogong/minimind",
+  "link": "https://github.com/jingyaogong/minimind",
+  "date": "2026-11-17",
+  "stars": 65679,
+  "description": "MiniMind is a hands-on course in building a language model from scratch. It walks you through training a 64-million-parameter model in about two hours on a single graphics card, for roughly fifty cents of rented compute, with every line of code written from scratch in PyTorch. It covers the whole journey: pretraining on raw text, then teaching the model to follow instructions, and onward to advanced techniques like LoRA, DPO, reinforcement learning, tool use, and agentic reinforcement learning. MiniMind 3 is aligned with the Qwen3 model family, and there is a mixture-of-experts version plus experimental versions that handle images and other inputs. You can chat with your homemade model through Ollama, vLLM, or llama.cpp.",
+  "usage": "Build a tiny working language model yourself in an afternoon to learn what is actually inside one, instead of only ever downloading finished models."
+ },
+ {
+  "repo": "google-research/paper-orchestra",
+  "link": "https://github.com/google-research/paper-orchestra",
+  "date": "2026-11-17",
+  "stars": 2195,
+  "description": "Paper-Orchestra, from Google Cloud AI Research, is a team of specialized AI agents that turns your raw research materials, ideas, and experiment logs into a finished, submission-ready research paper. Like an orchestra, each agent plays one part: one writes the outline, another does the literature review, others write each section and polish the whole thing, and a plotting agent generates the charts and diagrams from your data. The result is a manuscript in LaTeX, the typesetting format academic conferences require, matched to your target conference's template. It works with Gemini or OpenAI models, searches Semantic Scholar for the literature, and includes an interactive demo. The code is Apache licensed; the dataset used in the paper is not public yet.",
+  "usage": "Hand a research project to a team of agents for the assembly, literature sweep, formatting, and figures, while you keep ownership of the idea and the experiments."
  }
 ]
