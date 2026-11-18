@@ -502,5 +502,29 @@
   "stars": 2195,
   "description": "Paper-Orchestra, from Google Cloud AI Research, is a team of specialized AI agents that turns your raw research materials, ideas, and experiment logs into a finished, submission-ready research paper. Like an orchestra, each agent plays one part: one writes the outline, another does the literature review, others write each section and polish the whole thing, and a plotting agent generates the charts and diagrams from your data. The result is a manuscript in LaTeX, the typesetting format academic conferences require, matched to your target conference's template. It works with Gemini or OpenAI models, searches Semantic Scholar for the literature, and includes an interactive demo. The code is Apache licensed; the dataset used in the paper is not public yet.",
   "usage": "Hand a research project to a team of agents for the assembly, literature sweep, formatting, and figures, while you keep ownership of the idea and the experiments."
+ },
+ {
+  "repo": "n8n-io/n8n",
+  "link": "https://github.com/n8n-io/n8n",
+  "date": "2026-11-18",
+  "stars": 210856,
+  "description": "n8n, short for nodemation, is a fair-code workflow automation platform with native AI capabilities, and at more than two hundred ten thousand stars it is one of the biggest projects ever covered here. You get a blank visual canvas and drag boxes onto it: one box watches your email inbox, another talks to a spreadsheet, another calls an AI model, and you draw lines between them to build a workflow that runs on its own whenever something happens. The canvas now treats AI agents as first-class boxes, so you can build a multi-step agent that reads your data, uses tools, asks a human for approval when a decision matters, and keeps a full log of everything it did. There are more than 1,500 integrations, from Gmail and Slack to databases and CRMs, and more than 9,000 ready-made workflow templates shared by the community. It runs in their cloud or on your own server, which keeps sensitive data on your own machines, and it works with any AI model you choose, with JavaScript or Python available inside a box when the canvas is not enough. Started in 2019 by founder Jan Oberhauser, it is fair code under the Sustainable Use License.",
+  "usage": "Build AI agents that do real work in a real business, like sorting customer email and drafting replies, wired into the systems you already use."
+ },
+ {
+  "repo": "punkpeye/awesome-mcp-servers",
+  "link": "https://github.com/punkpeye/awesome-mcp-servers",
+  "date": "2026-11-18",
+  "stars": 97867,
+  "description": "Awesome MCP Servers is a giant curated directory of MCP servers, organized by category, and at nearly ninety eight thousand stars it is the map for one of the most important ideas in AI right now. MCP, the Model Context Protocol, is the standard plug that lets an AI assistant reach outside tools: read your files, check your calendar, search your database, or drive a browser. A server is just a small program that speaks that plug and exposes one thing, and once it exists, any assistant that speaks MCP, like Claude, Codex, or Cursor, can use it. This list gathers thousands of them, covering everything from aerospace and weather to browser automation, cloud platforms, code execution, coding agents, communication tools like Slack, databases, and developer tools, translated into Japanese, Korean, Chinese, Portuguese, Thai, and Persian. It started in late 2024, is maintained by a developer who goes by punkpeye, has more than twenty thousand forks, and is MIT licensed.",
+  "usage": "When you build your first AI agent and ask what you can connect it to, start here: find the server for the tool you use and plug it in."
+ },
+ {
+  "repo": "openvinotoolkit/openvino",
+  "link": "https://github.com/openvinotoolkit/openvino",
+  "date": "2026-11-18",
+  "stars": 11222,
+  "description": "OpenVINO, from Intel, is an open source toolkit for optimizing and deploying AI inference, which is just the technical word for running a trained model and getting answers out of it. Training a big model takes a warehouse of specialized hardware, but running one is something you might want to do on an ordinary laptop, a small computer in a factory, or a camera on a wall, and models built for big hardware run slowly or eat too much memory there. OpenVINO takes a model trained in a popular framework like PyTorch or TensorFlow, compresses the numbers inside it, trims the parts that do not matter much, and rewrites it to run efficiently on the hardware you actually have: your laptop's processor, an Intel graphics chip, or a small dedicated AI accelerator. The result gives the same answers, just faster, using far less power and memory. It powers chatbots that run entirely on your own machine with no data sent to the cloud, image generation and speech recognition on a laptop, and object detection on small devices, using models from the Hugging Face Hub. It plugs into vLLM, LangChain, LlamaIndex, and Keras 3, includes a dedicated GenAI toolkit for large language models, and is Apache licensed. Started in 2018, it is the oldest project on today's list, and it is trending now because the agent boom means everyone wants AI running everywhere, not just in a data center.",
+  "usage": "Run AI models fast and privately on hardware you already own, from a laptop chatbot to a camera spotting people at the edge."
  }
 ]
