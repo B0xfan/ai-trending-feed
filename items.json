@@ -526,5 +526,53 @@
   "stars": 11222,
   "description": "OpenVINO, from Intel, is an open source toolkit for optimizing and deploying AI inference, which is just the technical word for running a trained model and getting answers out of it. Training a big model takes a warehouse of specialized hardware, but running one is something you might want to do on an ordinary laptop, a small computer in a factory, or a camera on a wall, and models built for big hardware run slowly or eat too much memory there. OpenVINO takes a model trained in a popular framework like PyTorch or TensorFlow, compresses the numbers inside it, trims the parts that do not matter much, and rewrites it to run efficiently on the hardware you actually have: your laptop's processor, an Intel graphics chip, or a small dedicated AI accelerator. The result gives the same answers, just faster, using far less power and memory. It powers chatbots that run entirely on your own machine with no data sent to the cloud, image generation and speech recognition on a laptop, and object detection on small devices, using models from the Hugging Face Hub. It plugs into vLLM, LangChain, LlamaIndex, and Keras 3, includes a dedicated GenAI toolkit for large language models, and is Apache licensed. Started in 2018, it is the oldest project on today's list, and it is trending now because the agent boom means everyone wants AI running everywhere, not just in a data center.",
   "usage": "Run AI models fast and privately on hardware you already own, from a laptop chatbot to a camera spotting people at the edge."
+ },
+ {
+  "repo": "firecrawl/firecrawl",
+  "link": "https://github.com/firecrawl/firecrawl",
+  "date": "2026-11-19",
+  "stars": 203602,
+  "description": "Firecrawl gives an AI assistant a way to actually read the live web. Web pages are built for human eyes, full of ads, popups, and cookie banners, so Firecrawl fetches a page and hands the assistant a clean, readable version. It can search the web and return the full text of the results, crawl a whole site, or take a plain-English request like find me the pricing plans for Notion and come back with a tidy answer plus the sources it used. It says it covers about 96 percent of the web, including pages that load their content with JavaScript, and answers in about three seconds in the typical case. A newer addition called Alexandria plugs an agent into more than 550 data providers, company records, research papers, and people data, through one connection. It is open source under a license that asks you to share your changes back, and you can run it yourself or pay for the hosted version.",
+  "usage": "Give an AI assistant you build real eyes on the web, for a research helper, a shopping assistant, or a tool that watches a competitor's prices."
+ },
+ {
+  "repo": "Tracer-Cloud/opensre",
+  "link": "https://github.com/Tracer-Cloud/opensre",
+  "date": "2026-11-19",
+  "stars": 12915,
+  "description": "OpenSRE is an open-source agent that investigates failed CI runs, the automated checks that run every time code is submitted. When a check fails, the system just says it broke; it does not say why or how to fix it. OpenSRE reads the failed run, pulls in the logs and the recent changes, tests its own theories, and then pushes a fix onto the branch for a human to review. It is built to run on your own machines with your own AI models, so code does not have to leave the building, and it plugs into more than 60 tools, from Slack and PagerDuty for alerts to Grafana and Datadog for monitoring, plus the big cloud platforms and databases. It is still in public alpha, so it is early, but as AI writes more of the code, the job of fixing the build increasingly falls to another agent.",
+  "usage": "Let an agent do the tedious log-digging when a build fails, and have it hand you a fix to review instead of a mystery."
+ },
+ {
+  "repo": "mjmirza/app-store-compliance",
+  "link": "https://github.com/mjmirza/app-store-compliance",
+  "date": "2026-11-19",
+  "stars": 1514,
+  "description": "App Store Compliance is a playbook and a pre-submission guard that catches App Store and Google Play rejections before you submit. A rejection costs about a week: submit, wait days in review, get a one-line rejection, guess at the fix, resubmit, and wait again. This project documents 117 rejection patterns, each with the exact rule it breaks and the exact fix, and tracks 95 deadlines for rules like the EU AI Act and children's privacy rules. The practical part is a small script you run against your app before submitting: it scans your project and prints either blocked, with the critical risks listed first, or clear. You can wire it into your AI coding tool so the check runs automatically before every submit command, in Claude Code, Codex, Gemini CLI, Cursor, Copilot, and more.",
+  "usage": "Run the one-minute check before you submit an app and save yourself a week lost to a rejection."
+ },
+ {
+  "repo": "zhouxiaoka/autoclip",
+  "link": "https://github.com/zhouxiaoka/autoclip",
+  "date": "2026-11-19",
+  "stars": 10901,
+  "description": "AutoClip is a free, open-source desktop app that turns a long video, a podcast, an interview, or a class, into short clips ready for TikTok, Reels, and Shorts. It does the whole package, not just the cutting: each clip comes with subtitles, a cover image, a title, a description, and the text you would post with it. It picks the best moments itself, up to ten per platform, and the rest stay as backups you can make later. The editing and rendering happen on your own computer, and you choose which AI model does the analysis, including running the transcription locally so your audio never leaves the machine. The author tested it on a one-hour-and-43-minute interview and produced ten clips in about seven and a half minutes for roughly nine cents of model usage. It speaks many languages; the interface and docs come in Chinese, English, Japanese, Korean, Spanish, and more. It is MIT licensed.",
+  "usage": "Turn a long podcast or interview into ten shareable short clips in minutes instead of an editor's afternoon."
+ },
+ {
+  "repo": "kajisho5/ffmpeg-skill",
+  "link": "https://github.com/kajisho5/ffmpeg-skill",
+  "date": "2026-11-19",
+  "stars": 8151,
+  "description": "The ffmpeg-skill gives your coding agent 42 video tools that all run locally with FFmpeg, the free program that has powered video editing for decades. An agent that sort of knows video editing will guess: it assumes a frame rate, picks a codec the file cannot hold, re-encodes something that only needed a quick trim, and reports done without ever opening the result. This skill teaches the agent a strict routine: measure the file first, then edit, then check the result and measure it again. So you can say take this interview, keep the first minute and the bit at five minutes, and make me a sixty-second Reel, and the agent measures the footage, cuts it, reframes it to vertical, sets the loudness to the level the platform expects, adds the captions, and verifies the final file is actually sixty seconds at the right size before it says it is finished. No cloud, no API keys, and no Python libraries beyond what comes with Python itself. It also ships a machine-readable contract so any agent framework can pick the tools up, and the author wrote a paper about the discipline behind it: never trust what the agent generated, always verify it.",
+  "usage": "Let your coding agent edit video with a measure-edit-verify routine, so it checks its own work instead of guessing."
+ },
+ {
+  "repo": "Jakeschincariol/instagram-agent-skill",
+  "link": "https://github.com/Jakeschincariol/instagram-agent-skill",
+  "date": "2026-11-19",
+  "stars": 7194,
+  "description": "The instagram-agent-skill is a set of thirteen Claude skills that run an Instagram account, from writing Reels to planning the week to answering comments. The star is the Reel writer: it works from 26 hook formulas, proven ways to open a video, and scores your hook before you waste a take filming it. A timing tool maps the script out second by second and flags the four things that kill a Reel in the edit, like a hook that runs past three seconds or a long stretch with nothing concrete in it. There is also a caption checker that shows you the first 125 characters, all the feed shows before the tap for more, and a profile scorer that grades your bio out of 100 and rewrites what lost points. Then there is the humanizer, which strips out the tells that make text read as AI-written, em dashes, stock phrases, and invisible characters, and scores what is left. The author is honest about the limits: he tested the hook scorer on 74 real hooks and published the results, including that it is good at catching bad hooks but does not reliably pick winners. Nothing gets posted until you say yes. These skills write; you post.",
+  "usage": "Draft and polish Instagram Reels, captions, and bios with a coding agent, while you keep the final say on what goes live."
  }
 ]

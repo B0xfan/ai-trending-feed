@@ -5,7 +5,67 @@
     <link>https://github.com/trending</link>
     <description>One item per repo from the daily AI Trending report: what it does, how many stars it has, and how you would actually use it.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:59:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:59:58 +0000</lastBuildDate>
+    <item>
+      <title>firecrawl/firecrawl</title>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <guid isPermaLink="true">https://github.com/firecrawl/firecrawl</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Firecrawl gives an AI assistant a way to actually read the live web. Web pages are built for human eyes, full of ads, popups, and cookie banners, so Firecrawl fetches a page and hands the assistant a clean, readable version. It can search the web and return the full text of the results, crawl a whole site, or take a plain-English request like find me the pricing plans for Notion and come back with a tidy answer plus the sources it used. It says it covers about 96 percent of the web, including pages that load their content with JavaScript, and answers in about three seconds in the typical case. A newer addition called Alexandria plugs an agent into more than 550 data providers, company records, research papers, and people data, through one connection. It is open source under a license that asks you to share your changes back, and you can run it yourself or pay for the hosted version.</p>
+<p><strong>Stars:</strong> 203602</p>
+<p><strong>Practical use:</strong> Give an AI assistant you build real eyes on the web, for a research helper, a shopping assistant, or a tool that watches a competitor&#x27;s prices.</p>
+<p><a href="https://github.com/firecrawl/firecrawl">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Tracer-Cloud/opensre</title>
+      <link>https://github.com/Tracer-Cloud/opensre</link>
+      <guid isPermaLink="true">https://github.com/Tracer-Cloud/opensre</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>OpenSRE is an open-source agent that investigates failed CI runs, the automated checks that run every time code is submitted. When a check fails, the system just says it broke; it does not say why or how to fix it. OpenSRE reads the failed run, pulls in the logs and the recent changes, tests its own theories, and then pushes a fix onto the branch for a human to review. It is built to run on your own machines with your own AI models, so code does not have to leave the building, and it plugs into more than 60 tools, from Slack and PagerDuty for alerts to Grafana and Datadog for monitoring, plus the big cloud platforms and databases. It is still in public alpha, so it is early, but as AI writes more of the code, the job of fixing the build increasingly falls to another agent.</p>
+<p><strong>Stars:</strong> 12915</p>
+<p><strong>Practical use:</strong> Let an agent do the tedious log-digging when a build fails, and have it hand you a fix to review instead of a mystery.</p>
+<p><a href="https://github.com/Tracer-Cloud/opensre">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>mjmirza/app-store-compliance</title>
+      <link>https://github.com/mjmirza/app-store-compliance</link>
+      <guid isPermaLink="true">https://github.com/mjmirza/app-store-compliance</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>App Store Compliance is a playbook and a pre-submission guard that catches App Store and Google Play rejections before you submit. A rejection costs about a week: submit, wait days in review, get a one-line rejection, guess at the fix, resubmit, and wait again. This project documents 117 rejection patterns, each with the exact rule it breaks and the exact fix, and tracks 95 deadlines for rules like the EU AI Act and children&#x27;s privacy rules. The practical part is a small script you run against your app before submitting: it scans your project and prints either blocked, with the critical risks listed first, or clear. You can wire it into your AI coding tool so the check runs automatically before every submit command, in Claude Code, Codex, Gemini CLI, Cursor, Copilot, and more.</p>
+<p><strong>Stars:</strong> 1514</p>
+<p><strong>Practical use:</strong> Run the one-minute check before you submit an app and save yourself a week lost to a rejection.</p>
+<p><a href="https://github.com/mjmirza/app-store-compliance">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>zhouxiaoka/autoclip</title>
+      <link>https://github.com/zhouxiaoka/autoclip</link>
+      <guid isPermaLink="true">https://github.com/zhouxiaoka/autoclip</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>AutoClip is a free, open-source desktop app that turns a long video, a podcast, an interview, or a class, into short clips ready for TikTok, Reels, and Shorts. It does the whole package, not just the cutting: each clip comes with subtitles, a cover image, a title, a description, and the text you would post with it. It picks the best moments itself, up to ten per platform, and the rest stay as backups you can make later. The editing and rendering happen on your own computer, and you choose which AI model does the analysis, including running the transcription locally so your audio never leaves the machine. The author tested it on a one-hour-and-43-minute interview and produced ten clips in about seven and a half minutes for roughly nine cents of model usage. It speaks many languages; the interface and docs come in Chinese, English, Japanese, Korean, Spanish, and more. It is MIT licensed.</p>
+<p><strong>Stars:</strong> 10901</p>
+<p><strong>Practical use:</strong> Turn a long podcast or interview into ten shareable short clips in minutes instead of an editor&#x27;s afternoon.</p>
+<p><a href="https://github.com/zhouxiaoka/autoclip">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>kajisho5/ffmpeg-skill</title>
+      <link>https://github.com/kajisho5/ffmpeg-skill</link>
+      <guid isPermaLink="true">https://github.com/kajisho5/ffmpeg-skill</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>The ffmpeg-skill gives your coding agent 42 video tools that all run locally with FFmpeg, the free program that has powered video editing for decades. An agent that sort of knows video editing will guess: it assumes a frame rate, picks a codec the file cannot hold, re-encodes something that only needed a quick trim, and reports done without ever opening the result. This skill teaches the agent a strict routine: measure the file first, then edit, then check the result and measure it again. So you can say take this interview, keep the first minute and the bit at five minutes, and make me a sixty-second Reel, and the agent measures the footage, cuts it, reframes it to vertical, sets the loudness to the level the platform expects, adds the captions, and verifies the final file is actually sixty seconds at the right size before it says it is finished. No cloud, no API keys, and no Python libraries beyond what comes with Python itself. It also ships a machine-readable contract so any agent framework can pick the tools up, and the author wrote a paper about the discipline behind it: never trust what the agent generated, always verify it.</p>
+<p><strong>Stars:</strong> 8151</p>
+<p><strong>Practical use:</strong> Let your coding agent edit video with a measure-edit-verify routine, so it checks its own work instead of guessing.</p>
+<p><a href="https://github.com/kajisho5/ffmpeg-skill">View on GitHub</a></p>]]></description>
+    </item>
+    <item>
+      <title>Jakeschincariol/instagram-agent-skill</title>
+      <link>https://github.com/Jakeschincariol/instagram-agent-skill</link>
+      <guid isPermaLink="true">https://github.com/Jakeschincariol/instagram-agent-skill</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>The instagram-agent-skill is a set of thirteen Claude skills that run an Instagram account, from writing Reels to planning the week to answering comments. The star is the Reel writer: it works from 26 hook formulas, proven ways to open a video, and scores your hook before you waste a take filming it. A timing tool maps the script out second by second and flags the four things that kill a Reel in the edit, like a hook that runs past three seconds or a long stretch with nothing concrete in it. There is also a caption checker that shows you the first 125 characters, all the feed shows before the tap for more, and a profile scorer that grades your bio out of 100 and rewrites what lost points. Then there is the humanizer, which strips out the tells that make text read as AI-written, em dashes, stock phrases, and invisible characters, and scores what is left. The author is honest about the limits: he tested the hook scorer on 74 real hooks and published the results, including that it is good at catching bad hooks but does not reliably pick winners. Nothing gets posted until you say yes. These skills write; you post.</p>
+<p><strong>Stars:</strong> 7194</p>
+<p><strong>Practical use:</strong> Draft and polish Instagram Reels, captions, and bios with a coding agent, while you keep the final say on what goes live.</p>
+<p><a href="https://github.com/Jakeschincariol/instagram-agent-skill">View on GitHub</a></p>]]></description>
+    </item>
     <item>
       <title>n8n-io/n8n</title>
       <link>https://github.com/n8n-io/n8n</link>
